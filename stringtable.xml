@@ -1572,32 +1572,8 @@
         <Spanish>Hora de la sesión</Spanish>
         <German>Sitzungsdauer</German>
       </Key>
-      <Key ID="STR_ENH_display3DEN_nextSong_tooltip">
-        <Original>New Track</Original>
-        <English>New Track</English>
-        <Czech>Nová skladba</Czech>
-        <French>Nouvelle piste</French>
-        <Spanish>Nueva pista</Spanish>
-        <German>Neues Lied</German>
-      </Key>
     </Container>
     <Container name="Tools">
-      <Key ID="STR_ENH_tools_importCameraParams_displayName">
-        <Original>Import Camera Params</Original>
-        <English>Import Camera Params</English>
-        <Czech>Importovat parametry kamery</Czech>
-        <French>Importer des paramètres de caméra</French>
-        <Spanish>Importar parámetros de la cámara</Spanish>
-        <German>Kameraparameter importieren</German>
-      </Key>
-      <Key ID="STR_ENH_tools_exportCameraParams_displayName">
-        <Original>Export Camera Params</Original>
-        <English>Export Camera Params</English>
-        <Czech>Exportovat parametry kamery</Czech>
-        <French>Exporter les paramètres de caméra</French>
-        <Spanish>Exportar parámetros de la cámara</Spanish>
-        <German>Kameraparameter exportieren</German>
-      </Key>
       <Key ID="STR_ENH_tools_fillArea_displayName">
         <Original>Fill Area...</Original>
         <English>Fill Area...</English>
@@ -1834,23 +1810,20 @@
         <English>Colour Picker...</English>
         <German>Farbauswahl Werkzeug...</German>
       </Key>
+      <Key ID="STR_ENH_textureFinder">
+        <Original>Texture Finder...</Original>
+        <English>Texture Finder...</English>
+        <German>Texturen suchen...</German>
+      </Key>
     </Container>
     <Container name="Tool Folders">
-      <Key ID="STR_ENH_toolFolder_main_displayName">
-        <Original>3den Enhanced Tools...</Original>
-        <English>3den Enhanced Tools...</English>
-        <Czech>Nástroje 3den Enhanced...</Czech>
-        <French>Outils 3den Enhanced...</French>
-        <Spanish>3den Enhanced Tools...</Spanish>
-        <German>3den Enhanced Werkzeuge...</German>
-      </Key>
       <Key ID="STR_ENH_toolFolder_utilities_displayName">
-        <Original>Arma 3 Utilities...</Original>
-        <English>Arma 3 Utilities...</English>
+        <Original>Utilities...</Original>
+        <English>Utilities...</English>
         <Czech />
         <French />
-        <Spanish>Utilidades Arma 3...</Spanish>
-        <German>Arma 3 Hilfsmittel...</German>
+        <Spanish>Utilidades...</Spanish>
+        <German>Hilfsmittel...</German>
       </Key>
       <Key ID="STR_ENH_toolFolder_placement_displayName">
         <Original>Placement Tools...</Original>
@@ -2214,7 +2187,7 @@
       </Key>
     </Container>
   </Package>
-  <Package name="Custom Displays">
+  <Package name="GUI">
     <Container name="Briefing Editor">
       <Key ID="STR_ENH_briefingEditor_headline_displayName">
         <Original>Briefing Editor</Original>
@@ -2677,6 +2650,28 @@
         <Portuguese />
         <Russian />
         <German>Schließen</German>
+      </Key>
+    </Container>
+    <Container name="Texture Finder">
+      <Key ID="STR_ENH_textureFinder_header">
+        <Original>Texture Finder</Original>
+        <English>Texture Finder</English>
+        <German>Texturen finden</German>
+      </Key>
+      <Key ID="STR_ENH_textureFinder_showAll">
+        <Original>Show all</Original>
+        <English>Show all</English>
+        <German>Alle Zeigen</German>
+      </Key>
+      <Key ID="STR_ENH_textureFinder_close">
+        <Original>Close</Original>
+        <English>Close</English>
+        <German>Schließen</German>
+      </Key>
+      <Key ID="STR_ENH_textureFinder_searchTextures">
+        <Original>Search Textures</Original>
+        <English>Search Textures</English>
+        <German>Texturen suchen</German>
       </Key>
     </Container>
   </Package>
@@ -3244,6 +3239,20 @@
         <Portuguese />
         <Russian />
         <German>Windkraftanlagen</German>
+      </Key>
+    </Container>
+    <Container name="fn_searchState">
+      <Key ID="STR_ENH_searchState_pleaseWait">
+        <Original>Still searching. Please wait.</Original>
+        <English>Still searching. Please wait.</English>
+        <German>Suchen in Arbeit. Bitte warten.</German>
+      </Key>
+    </Container>
+    <Container name="fn_updateProgressbar">
+      <Key ID="STR_ENH_updateProgressbar">
+        <Original>Classes searched: #%1 of #%2 Textures found: #%3</Original>
+        <English>Classes searched: #%1 of #%2 Textures found: #%3</English>
+        <German>Klassen durchsucht: #%1 von #%2 Texturen gefunden: #%3</German>
       </Key>
     </Container>
   </Package>
