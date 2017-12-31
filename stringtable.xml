@@ -1468,6 +1468,11 @@
         <English>Show 3DEN Entity ID</English>
         <German>Zeige 3DEN Objekt ID</German>
       </Key>
+      <Key ID="STR_ENH_logObjectInfo">
+        <Original>Log Object Info</Original>
+        <English>Log Object Info</English>
+        <German>Objektinfo. in Zwischenablage aufzeichnen</German>
+      </Key>
     </Container>
     <Container name="Help">
       <Key ID="STR_ENH_HelpFunctionsOverview">
@@ -1877,7 +1882,7 @@
         <Czech>Nástroje pro debug...</Czech>
         <French>Outil de débugage...</French>
         <Spanish>Herramientas de depuración...</Spanish>
-        <German>Debug Werkzeuge...</German>
+        <German>Debugwerkzeuge...</German>
       </Key>
       <Key ID="STR_ENH_toolFolder_loadout_displayName">
         <Original>Loadout Tools...</Original>
@@ -1885,7 +1890,7 @@
         <Czech>Nástroje pro výstroj...</Czech>
         <French>Outil d'équipement...</French>
         <Spanish>Herramientas de equipamiento...</Spanish>
-        <German>Ausrüstungs Werkzeuge...</German>
+        <German>Ausrüstungswerkzeuge...</German>
       </Key>
     </Container>
     <Container name="Help Folders">
@@ -2624,6 +2629,11 @@
         <English>Alpha</English>
         <German>Alpha</German>
       </Key>
+      <Key ID="STR_ENH_colourPicker_header">
+        <Original>Colour Picker</Original>
+        <English>Colour Picker</English>
+        <German>Farbauswahl Werkzeug</German>
+      </Key>
     </Container>
     <Container name="Module Information">
       <Key ID="STR_ENH_moduleInformation_description">
@@ -3291,6 +3301,18 @@
         <Original>Classes searched: #%1 of #%2 Textures found: #%3</Original>
         <English>Classes searched: #%1 of #%2 Textures found: #%3</English>
         <German>Klassen durchsucht: #%1 von #%2 Texturen gefunden: #%3</German>
+      </Key>
+    </Container>
+    <Container name="fn_measureDistance">
+      <Key ID="STR_ENH_measureDistance_data">
+        <Original>Distance 2D/3D: %1 / %2 m Travel Time (on foot): ~ %3 min</Original>
+        <English>Distance 2D/3D: %1 / %2 m Travel Time (on foot): ~ %3 min</English>
+        <German>Distanz 2D/3D: %1 / %2 m Reisezeit (zu Fuß): ~ %3 min</German>
+      </Key>
+      <Key ID="STR_ENH_measureDistance_select2ndPoint">
+        <Original>Select second point</Original>
+        <English>Select second point</English>
+        <German>Zweiten Punkt auswählen</German>
       </Key>
     </Container>
   </Package>
