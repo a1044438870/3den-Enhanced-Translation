@@ -1358,6 +1358,30 @@
         <German>Beeinflusst die Sichtbarkeit des Objektes.</German>
       </Key>
     </Container>
+    <Container name="Remove from remains collector">
+      <Key ID="STR_ENH_removeFromRemainsCollector_displayName">
+        <Original>Deactivate deletion on death</Original>
+        <English>Deactivate deletion on death</English>
+        <German>Löschung bei Tod deaktivieren</German>
+      </Key>
+      <Key ID="STR_ENH_removeFromRemainsCollector_tooltip">
+        <Original>The object won't be deleted after death or destruction.</Original>
+        <English>The object won't be deleted after death or destruction.</English>
+        <German>Das Objekt wird nicht gelöscht wenn es zerstört oder getötet wurde.</German>
+      </Key>
+    </Container>
+    <Container name="KbTell">
+      <Key ID="STR_ENH_kbTell_displayName">
+        <Original>KbTell Name</Original>
+        <English>KbTell Name</English>
+        <German>KbTell Name</German>
+      </Key>
+      <Key ID="STR_ENH_kbTell_tooltip">
+        <Original>Name used in kbTell dialogues.</Original>
+        <English>Name used in kbTell dialogues.</English>
+        <German>Name der in 'KbTell' Dialogen verwendet wird.</German>
+      </Key>
+    </Container>
   </Package>
   <Package name="Misc">
     <Container name="notification.hpp">
@@ -1750,11 +1774,25 @@
         <German>Gras an/aus</German>
       </Key>
       <Key ID="STR_ENH_tools_exportGUIBaseClasses">
-        <Original>Export GUI Base Classes</Original>
-        <English>Export GUI Base Classes</English>
-        <French>Exporter les classes GUI</French>
-        <Spanish>Exportar clases (classes) del GUI base</Spanish>
-        <German>GUI Klassen exportieren</German>
+        <Original>Export GUI Base Classes (All)</Original>
+        <English>Export GUI Base Classes (All)</English>
+        <French>Exporter les classes GUI (All)</French>
+        <Spanish>Exportar clases (classes) del GUI base (All)</Spanish>
+        <German>GUI Klassen exportieren (Alle)</German>
+      </Key>
+      <Key ID="STR_ENH_tools_exportGUIBaseClasses_3den">
+        <Original>Export GUI Base Classes (Eden only)</Original>
+        <English>Export GUI Base Classes (Eden only)</English>
+        <French>Exporter les classes GUI (Eden only)</French>
+        <Spanish>Exportar clases (classes) del GUI base (Eden only)</Spanish>
+        <German>GUI Klassen exportieren (Nur Eden)</German>
+      </Key>
+      <Key ID="STR_ENH_tools_exportGUIBaseClasses_default">
+        <Original>Export GUI Base Classes (Default)</Original>
+        <English>Export GUI Base Classes (Default)</English>
+        <French>Exporter les classes GUI (Default)</French>
+        <Spanish>Exportar clases (classes) del GUI base (Default)</Spanish>
+        <German>GUI Klassen exportieren (Standard)</German>
       </Key>
       <Key ID="STR_ENH_tools_GUITestGrids">
         <Original>Open GUI Test Grids...</Original>
@@ -1799,11 +1837,11 @@
         <German>CfgDisabled Commands Template Generator...</German>
       </Key>
       <Key ID="STR_ENH_tools_batchNaming">
-        <Original>Batch Naming...</Original>
-        <English>Batch Naming...</English>
+        <Original>Name objects...</Original>
+        <English>Name objects...</English>
         <French />
         <Spanish>Cambio de nombre en lote...</Spanish>
-        <German>Batch Naming...</German>
+        <German>Objekte benennen...</German>
       </Key>
       <Key ID="STR_ENH_colourPicker">
         <Original>Colour Picker...</Original>
@@ -2350,10 +2388,10 @@
     </Container>
     <Container name="3den Radio">
       <Key ID="STR_ENH_3denRadio_saveAndClose_text">
-        <Original>Save &amp; Close</Original>
-        <English>Save &amp; Close</English>
-        <Spanish>Guardar y salir</Spanish>
-        <German>Speich. &amp; Schließ.</German>
+        <Original>Close</Original>
+        <English>Close</English>
+        <Spanish />
+        <German>Schließen</German>
       </Key>
       <Key ID="STR_ENH_3denRadio_playlist_text">
         <Original>Playlist</Original>
