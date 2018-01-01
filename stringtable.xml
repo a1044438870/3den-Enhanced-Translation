@@ -884,7 +884,7 @@
         <Czech>Zaměření</Czech>
         <French>Ciblage</French>
         <Spanish>Objetivo</Spanish>
-        <German>Zielen</German>
+        <German>Ziele beobachten</German>
       </Key>
       <Key ID="STR_ENH_disableAI_target_tooltip">
         <Original>Disables AI's ability to target.</Original>
