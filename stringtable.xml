@@ -1658,14 +1658,6 @@
         <Spanish>Medición de distancia</Spanish>
         <German>Distanz messen</German>
       </Key>
-      <Key ID="STR_ENH_tools_showMissionStats_displayName">
-        <Original>Show Mission Statistic</Original>
-        <English>Show Mission Statistic</English>
-        <Czech>Zobrazit statistiku mise</Czech>
-        <French>Afficher les statistiques de la mission</French>
-        <Spanish>Mostrar estadísticas de la misión</Spanish>
-        <German>Zeige Missionstatistik</German>
-      </Key>
       <Key ID="STR_ENH_tools_logFaction_displayName">
         <Original>Log Faction Names</Original>
         <English>Log Faction Names</English>
@@ -1673,22 +1665,6 @@
         <French>Log du nom des factions</French>
         <Spanish>Registrar nombres de facción</Spanish>
         <German>Fraktionsnamen kopieren</German>
-      </Key>
-      <Key ID="STR_ENH_tools_recompileFunctions_displayName">
-        <Original>Recompile Functions</Original>
-        <English>Recompile Functions</English>
-        <Czech>Překompilovat funkce</Czech>
-        <French>Recompiler la fonction</French>
-        <Spanish>Recompilar funciones</Spanish>
-        <German>Funktionen neu kompilieren</German>
-      </Key>
-      <Key ID="STR_ENH_tools_productInfo_displayName">
-        <Original>Log Game Info</Original>
-        <English>Log Game Info</English>
-        <Czech>Zaznamenat informace hry</Czech>
-        <French>Enregistrer info du jeu</French>
-        <Spanish>Registrar información de juego</Spanish>
-        <German>Kopiere Spieleinformationen</German>
       </Key>
       <Key ID="STR_ENH_tools_briefingEditor_displayName">
         <Original>Briefing Editor...</Original>
@@ -1705,14 +1681,6 @@
         <French>Orientation aléatoire</French>
         <Spanish>Dirección aleatoria</Spanish>
         <German>Randomisiere Richtung</German>
-      </Key>
-      <Key ID="STR_ENH_tools_showMapIDs_displayName">
-        <Original>Show Map IDs</Original>
-        <English>Show Map IDs</English>
-        <Czech>Zobrazit ID na mapě</Czech>
-        <French>Afficher les IDs sur la carte</French>
-        <Spanish>Mostrar IDs en el mapa</Spanish>
-        <German>Zeige Karten IDs</German>
       </Key>
       <Key ID="STR_ENH_tools_switchTime_displayName">
         <Original>Switch Time</Original>
@@ -1753,14 +1721,6 @@
         <French>Orienter vers l'Ouest</French>
         <Spanish>Orientar al oeste</Spanish>
         <German>Nach Westen ausrichten</German>
-      </Key>
-      <Key ID="STR_ENH_tools_FPSGauge_displayName">
-        <Original>Toggle FPS Gauge</Original>
-        <English>Toggle FPS Gauge</English>
-        <Czech>Zobrazit měření FPS</Czech>
-        <French>Activer le compteur de FPS</French>
-        <Spanish>Indicador FPS sí/no</Spanish>
-        <German>FPS Anzeige an/ausschalten</German>
       </Key>
       <Key ID="STR_ENH_tools_linePattern_displayName">
         <Original>Linepattern...</Original>
@@ -1806,13 +1766,6 @@
         <Spanish>Abrir rejillas de pruebas del GUI...</Spanish>
         <German>GUI Testraster öffnen...</German>
       </Key>
-      <Key ID="STR_ENH_tools_debugTriggers">
-        <Original>Create Debug Triggers</Original>
-        <English>Create Debug Triggers</English>
-        <French>Créer un déclencheur de débug</French>
-        <Spanish>Crear depuración de activadores (triggers)</Spanish>
-        <German>Debug Auslöser erstellen</German>
-      </Key>
       <Key ID="STR_ENH_tools_moonPhases">
         <Original>Moon Phases...</Original>
         <English>Moon Phases...</English>
@@ -1848,15 +1801,15 @@
         <Spanish>Cambio de nombre en lote...</Spanish>
         <German>Objekte benennen...</German>
       </Key>
-      <Key ID="STR_ENH_colourPicker">
-        <Original>Colour Picker...</Original>
-        <English>Colour Picker...</English>
-        <German>Farbauswahl Werkzeug...</German>
-      </Key>
       <Key ID="STR_ENH_textureFinder">
         <Original>Texture Finder...</Original>
         <English>Texture Finder...</English>
         <German>Texturen suchen...</German>
+      </Key>
+      <Key ID="STR_ENH_colourPicker">
+        <Original>Colour Picker...</Original>
+        <English>Colour Picker...</English>
+        <German>Farbauswahl Werkzeug...</German>
       </Key>
     </Container>
     <Container name="Tool Folders">
@@ -1917,6 +1870,65 @@
         <French>Tutoriels Youtube...</French>
         <Spanish>Tutoriales de youtube...</Spanish>
         <German>Youtube Tutorials...</German>
+      </Key>
+    </Container>
+    <Container name="Debug Tools">
+      <Key ID="STR_ENH_tools_debugTriggers">
+        <Original>Create Debug Triggers</Original>
+        <English>Create Debug Triggers</English>
+        <French>Créer un déclencheur de débug</French>
+        <Spanish>Crear depuración de activadores (triggers)</Spanish>
+        <German>Debug Auslöser erstellen</German>
+      </Key>
+      <Key ID="STR_ENH_tools_FPSGauge_displayName">
+        <Original>Toggle FPS Gauge</Original>
+        <English>Toggle FPS Gauge</English>
+        <Czech>Zobrazit měření FPS</Czech>
+        <French>Activer le compteur de FPS</French>
+        <Spanish>Indicador FPS sí/no</Spanish>
+        <German>FPS Anzeige an/ausschalten</German>
+      </Key>
+      <Key ID="STR_ENH_tools_showMapIDs_displayName">
+        <Original>Show Map IDs</Original>
+        <English>Show Map IDs</English>
+        <Czech>Zobrazit ID na mapě</Czech>
+        <French>Afficher les IDs sur la carte</French>
+        <Spanish>Mostrar IDs en el mapa</Spanish>
+        <German>Zeige Karten IDs</German>
+      </Key>
+      <Key ID="STR_ENH_tools_productInfo_displayName">
+        <Original>Log Game Info</Original>
+        <English>Log Game Info</English>
+        <Czech>Zaznamenat informace hry</Czech>
+        <French>Enregistrer info du jeu</French>
+        <Spanish>Registrar información de juego</Spanish>
+        <German>Kopiere Spieleinformationen</German>
+      </Key>
+      <Key ID="STR_ENH_tools_recompileFunctions_displayName">
+        <Original>Recompile Functions</Original>
+        <English>Recompile Functions</English>
+        <Czech>Překompilovat funkce</Czech>
+        <French>Recompiler la fonction</French>
+        <Spanish>Recompilar funciones</Spanish>
+        <German>Funktionen neu kompilieren</German>
+      </Key>
+      <Key ID="STR_ENH_tools_showMissionStats_displayName">
+        <Original>Show Mission Statistic</Original>
+        <English>Show Mission Statistic</English>
+        <Czech>Zobrazit statistiku mise</Czech>
+        <French>Afficher les statistiques de la mission</French>
+        <Spanish>Mostrar estadísticas de la misión</Spanish>
+        <German>Zeige Missionstatistik</German>
+      </Key>
+      <Key ID="STR_ENH_tools_deleteEmptyLayers">
+        <Original>Delete Empty Layers</Original>
+        <English>Delete Empty Layers</English>
+        <German>Leere Ebenen löschen</German>
+      </Key>
+      <Key ID="STR_ENH_tools_clearChat">
+        <Original>Clear Chat</Original>
+        <English>Clear Chat</English>
+        <German>Chat leeren</German>
       </Key>
     </Container>
   </Package>
