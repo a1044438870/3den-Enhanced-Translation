@@ -1794,9 +1794,16 @@
         <Spanish>Generador de plantillas de comandos de CfgDisabled...</Spanish>
         <German>CfgDisabled Commands Template Generator...</German>
       </Key>
+      <Key ID="STR_ENH_tools_batchReplace">
+        <Original>Batch Replace...</Original>
+        <English>Batch Replace...</English>
+        <French />
+        <Spanish />
+        <German>Objekte ersetzten...</German>
+      </Key>
       <Key ID="STR_ENH_tools_batchNaming">
-        <Original>Name objects...</Original>
-        <English>Name objects...</English>
+        <Original>Name Objects...</Original>
+        <English>Name Objects...</English>
         <French />
         <Spanish>Cambio de nombre en lote...</Spanish>
         <German>Objekte benennen...</German>
@@ -1873,21 +1880,6 @@
       </Key>
     </Container>
     <Container name="Debug Tools">
-      <Key ID="STR_ENH_tools_debugTriggers">
-        <Original>Create Debug Triggers</Original>
-        <English>Create Debug Triggers</English>
-        <French>Créer un déclencheur de débug</French>
-        <Spanish>Crear depuración de activadores (triggers)</Spanish>
-        <German>Debug Auslöser erstellen</German>
-      </Key>
-      <Key ID="STR_ENH_tools_FPSGauge_displayName">
-        <Original>Toggle FPS Gauge</Original>
-        <English>Toggle FPS Gauge</English>
-        <Czech>Zobrazit měření FPS</Czech>
-        <French>Activer le compteur de FPS</French>
-        <Spanish>Indicador FPS sí/no</Spanish>
-        <German>FPS Anzeige an/ausschalten</German>
-      </Key>
       <Key ID="STR_ENH_tools_showMapIDs_displayName">
         <Original>Show Map IDs</Original>
         <English>Show Map IDs</English>
@@ -2555,12 +2547,12 @@
     </Container>
     <Container name="Pattern Tools">
       <Key ID="STR_ENH_patternTools_numObjects">
-        <Original>Number of Objects</Original>
-        <English>Number of Objects</English>
+        <Original>#Objects</Original>
+        <English>#Objects</English>
         <Czech>Počet objektů</Czech>
         <French>Nombre d'Objets</French>
         <Spanish>Número de objetos</Spanish>
-        <German>Anzahl an Objekten</German>
+        <German>#Objekte</German>
       </Key>
       <Key ID="STR_ENH_patternTools_fillArea_header">
         <Original>Fill Area </Original>
@@ -2732,6 +2724,75 @@
         <Original>Search Textures</Original>
         <English>Search Textures</English>
         <German>Texturen suchen</German>
+      </Key>
+    </Container>
+    <Container name="Grid Pattern">
+      <Key ID="STR_ENH_gridPattern_header">
+        <Original>Grid Pattern</Original>
+        <English>Grid Pattern</English>
+        <German>Im Raster anordnen</German>
+      </Key>
+      <Key ID="STR_ENH_gridPattern_close">
+        <Original>Close</Original>
+        <English>Close</English>
+        <German>Schließen</German>
+      </Key>
+      <Key ID="STR_ENH_gridPattern_ok">
+        <Original>Ok</Original>
+        <English>Ok</English>
+        <German>Ok</German>
+      </Key>
+      <Key ID="STR_ENH_gridPattern_numColumns">
+        <Original>Number of Colums</Original>
+        <English>Number of Colums</English>
+        <German>Anzahl der Spalten</German>
+      </Key>
+      <Key ID="STR_ENH_gridPattern_numRows">
+        <Original>Number of Rows</Original>
+        <English>Number of Rows</English>
+        <German>Anzahl der Reihen</German>
+      </Key>
+      <Key ID="STR_ENH_gridPattern_spacingX">
+        <Original>Spacing X</Original>
+        <English>Spacing X</English>
+        <German>Abstand X</German>
+      </Key>
+      <Key ID="STR_ENH_gridPattern_spacingY">
+        <Original>Spacing Y</Original>
+        <English>Spacing Y</English>
+        <German>Abstand Y</German>
+      </Key>
+    </Container>
+    <Container name="Batch Replace">
+      <Key ID="STR_ENH_batchReplace_header">
+        <Original>Batch Replace</Original>
+        <English>Batch Replace</English>
+        <German>Objekte ersetzten</German>
+      </Key>
+      <Key ID="STR_ENH_batchReplace_replace">
+        <Original>Replace</Original>
+        <English>Replace</English>
+        <German>Ersetzen</German>
+      </Key>
+      <Key ID="STR_ENH_batchReplace_replaceWith">
+        <Original>Replace with:</Original>
+        <English>Replace with:</English>
+        <German>Ersetzen durch:</German>
+      </Key>
+      <Key ID="STR_ENH_batchReplace_replaceWith_tooltip">
+        <Original>Example: Classname_1,Classname_2,Classname_n</Original>
+        <English>Example: Classname_1,Classname_2,Classname_n</English>
+        <German>Beispiel: Classname_1,Classname_2,Classname_n</German>
+      </Key>
+      <Key ID="STR_ENH_batchReplace_close">
+        <Original>Close</Original>
+        <English>Close</English>
+        <German>Schließen</German>
+      </Key>
+      <Key ID="STR_ENH_batchReplace_description">
+        <Original>All selected objects will be replaced by the object types you enter in the edit box below randomly.</Original>
+        <English>All selected objects will be replaced by the object types you enter in the edit box below randomly.</English>
+        <German>Alle ausgewählten Objekte werden durch die hier angegebenen Objekttypen willkürlich ausgetauscht.</German>
       </Key>
     </Container>
   </Package>
@@ -3089,130 +3150,6 @@
       </Key>
     </Container>
   </Package>
-  <Package name="Debug Triggers">
-    <Container name="Debug Triggers">
-      <Key ID="STR_ENH_debugTriggers_Arsenal">
-        <Original>Arsenal</Original>
-        <English>Arsenal</English>
-        <Czech>Arsenal</Czech>
-        <French>Arsenal</French>
-        <Spanish>Arsenal</Spanish>
-        <Italian>Arsenal</Italian>
-        <Polish>Arsenal</Polish>
-        <Portuguese>Arsenal</Portuguese>
-        <Russian>Arsenal</Russian>
-        <German>Arsenal</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_skipTime">
-        <Original>SkipTime + 1 hour</Original>
-        <English>SkipTime + 1 hour</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>Zeitsprung +1 Stunde</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_captive">
-        <Original>Toggle captive mode</Original>
-        <English>Toggle captive mode</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>'Captive' Modus an/aus</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_invulnerability">
-        <Original>Toggle invulnerability</Original>
-        <English>Toggle invulnerability</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>Unverwundbarkeit an/aus</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_awareness">
-        <Original>Show enemy awareness</Original>
-        <English>Show enemy awareness</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>Feindl. Aufmerksamkeit anzeigen</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_bulletTracking">
-        <Original>Toggle bullet tracking</Original>
-        <English>Toggle bullet tracking</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>Projektilverfolung an/aus</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_reveal">
-        <Original>Reveal units</Original>
-        <English>Reveal units</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>Einheiten aufdecken</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_timeMulti">
-        <Original>Change time multiplier</Original>
-        <English>Change time multiplier</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>Zeitmultiplikator ändern</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_teleport">
-        <Original>Teleport</Original>
-        <English>Teleport</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>Teleportieren</German>
-      </Key>
-      <Key ID="STR_ENH_debugTriggers_heal_repair">
-        <Original>Heal &amp; Repair</Original>
-        <English>Heal &amp; Repair</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <Italian />
-        <Polish />
-        <Portuguese />
-        <Russian />
-        <German>Heilen &amp; Reparieren</German>
-      </Key>
-    </Container>
-  </Package>
   <Package name="Functions">
     <Container name="fn_locationList">
       <Key ID="STR_ENH_locationList_locations">
@@ -3325,6 +3262,152 @@
         <Original>Select second point</Original>
         <English>Select second point</English>
         <German>Zweiten Punkt auswählen</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Editor Attributes">
+    <Container name="On Preview Debug">
+      <Key ID="STR_ENH_onMissionDebug_captive_displayName">
+        <Original>Enable Captive Mode</Original>
+        <English>Enable Captive Mode</English>
+        <Czech>Zajatec</Czech>
+        <French>Capturé</French>
+        <Spanish>Establecer como cautivo.</Spanish>
+        <German>Neutrales Verhalten aktivieren</German>
+      </Key>
+      <Key ID="STR_ENH_onMissionDebug_description_displayName">
+        <Original>Description</Original>
+        <English>Description</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Beschreibung</German>
+      </Key>
+      <Key ID="STR_ENH_onMissionDebug_description_description">
+        <Original>The following settings allow you to easier test your scenarios during preview. The attributes will not be saved in the mission.sqm so they won't effect your scenario when you publish it.</Original>
+        <English>The following settings allow you to easier test your scenarios during preview. The attributes will not be saved in the mission.sqm so they won't effect your scenario when you publish it.</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Die folgenden Einstellungen erlauben dir deine Szenarios während der Szenariovorschau leichter zu testen. Die Attribute werden nicht in der mission.sqm gespeichert.</German>
+      </Key>
+      <Key ID="STR_ENH_onMissionDebug_awareness_displayName">
+        <Original>Show Level of Awareness</Original>
+        <English>Show Level of Awareness</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Kenntnisstand anzeigen</German>
+      </Key>
+      <Key ID="STR_ENH_onMissionDebug_awareness_tooltip">
+        <Original>A graphic will show how much each side knows about the player during scenario preview.</Original>
+        <English>A graphic will show how much each side knows about the player during scenario preview.</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Während der Szenariovorschau zeigt ine Grafik an wie viel jede Seite über den Spieler weis.</German>
+      </Key>
+      <Key ID="STR_ENH_onMissionDebug_zeus_displayName">
+        <Original>Enable Zeus</Original>
+        <English>Enable Zeus</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Zeus aktivieren</German>
+      </Key>
+      <Key ID="STR_ENH_onMissionDebug_arsenal_displayName">
+        <Original>Enable Arsenal</Original>
+        <English>Enable Arsenal</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Arsenal aktivieren</German>
+      </Key>
+      <Key ID="STR_ENH_onMissionDebug_garage_displayName">
+        <Original>Enable Virtual Garage</Original>
+        <English>Enable Virtual Garage</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Virtuelle Garage aktivieren</German>
+      </Key>
+      <Key ID="STR_ENH_onMissionDebug_captive_tooltip">
+        <Original>Player unit will be 'invisible' for other units during scenario preview.</Original>
+        <English>Player unit will be 'invisible' for other units during scenario preview.</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Der Spieler wird 'unsichtbar' für andere Einheiten während der Szenariovorschau sein.</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_invulnerability_displayName">
+        <Original>Enable Invulnerability</Original>
+        <English>Enable Invulnerability</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Unverwundbarkeit anschalten</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_stamina_displayName">
+        <Original>Disable Stamina</Original>
+        <English>Disable Stamina</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Ausdauer ausschalten</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_FPS_displayName">
+        <Original>Show FPS</Original>
+        <English>Show FPS</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>FPS anzeigen</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_bulletTracking_displayName">
+        <Original>Enable Bullet Tracking</Original>
+        <English>Enable Bullet Tracking</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Projektilverfolung an</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_bulletTracking_tooltip">
+        <Original>Activates bullet tracing for player unit during scenario preview.</Original>
+        <English>Activates bullet tracing for player unit during scenario preview.</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Aktiviert die Projektilverfolgung für den Spieler während der Szenariovorschau.</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_showUnits_displayName">
+        <Original>Show Units</Original>
+        <English>Show Units</English>
+        <German>Einheiten anzeigen</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_showUnits_tooltip">
+        <Original>All units and their movement will be visible on the map during scenario preview.</Original>
+        <English>All units and their movement will be visible on the map during scenario preview.</English>
+        <German>Alle Einheiten werden auf der Karte wären der Szenariovorschau angezeigt.</German>
       </Key>
     </Container>
   </Package>
