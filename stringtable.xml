@@ -286,7 +286,7 @@
     </Container>
     <Container name="Force Flag">
       <Key ID="STR_ENH_forceFlag_displayName">
-        <Original>Flagge anbringen</Original>
+        <Original>Add Flag</Original>
         <English>Add Flag</English>
         <German>Flagge anbringen</German>
       </Key>
@@ -324,165 +324,333 @@
       </Key>
     </Container>
     <Container name="Advanced Damage Vehicle">
-      <Key ID="STR_ENH_advancedDamageVeh_engine">
-        <Original>Engine (all)</Original>
-        <English>Engine (all)</English>
-        <Czech>Motor (vše)</Czech>
-        <French>Moteur (tout)</French>
-        <Spanish>Motor (todo)</Spanish>
-        <German>Motor (Alle)</German>
+      <Key ID="STR_ENH_advancedDamageVeh_engine1">
+        <Original>Engine #1</Original>
+        <English>Engine #1</English>
+        <Czech>Motor #1</Czech>
+        <French>Moteur #1</French>
+        <Spanish>Motor #1</Spanish>
+        <German>Motor #1</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_engine2">
+        <Original>Engine #2</Original>
+        <English>Engine #2</English>
+        <Czech>Motor #2</Czech>
+        <French>Moteur #2</French>
+        <Spanish>Motor #2</Spanish>
+        <German>Motor #2</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_gun">
-        <Original>Gun (all)</Original>
-        <English>Gun (all)</English>
-        <Czech>Zbraň (vše)</Czech>
-        <French>Arme (tout)</French>
-        <Spanish>Arma (todo)</Spanish>
-        <German>Geschütz (Alle)</German>
+        <Original>Gun</Original>
+        <English>Gun</English>
+        <Czech>Zbraň</Czech>
+        <French>Arme</French>
+        <Spanish>Arma</Spanish>
+        <German>Geschütz</German>
       </Key>
-      <Key ID="STR_ENH_advancedDamageVeh_fuelTank">
-        <Original>Fuel Tank (all)</Original>
-        <English>Fuel Tank (all)</English>
-        <Czech>Palivová nádrž (vše)</Czech>
-        <French>Réservoir (tout)</French>
-        <Spanish>Tanque de combustible (todo)</Spanish>
-        <German>Treibstofftank (Alle)</German>
+      <Key ID="STR_ENH_advancedDamageVeh_fuelTank1">
+        <Original>Fuel Tank #1</Original>
+        <English>Fuel Tank #1</English>
+        <Czech>Palivová nádrž #1</Czech>
+        <French>Réservoir #1</French>
+        <Spanish>Tanque de combustible #1</Spanish>
+        <German>Treibstofftank #1</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_fuelTank2">
+        <Original>Fuel Tank #2</Original>
+        <English>Fuel Tank #2</English>
+        <Czech>Palivová nádrž #2</Czech>
+        <French>Réservoir #2</French>
+        <Spanish>Tanque de combustible #2</Spanish>
+        <German>Treibstofftank #2</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_turret">
-        <Original>Turret (all)</Original>
-        <English>Turret (all)</English>
-        <Czech>Věž (vše)</Czech>
-        <French>Tourelle (tout)</French>
-        <Spanish>Torreta (todo)</Spanish>
-        <German>Geschützturm (Alle)</German>
+        <Original>Turret</Original>
+        <English>Turret</English>
+        <Czech>Věž</Czech>
+        <French>Tourelle</French>
+        <Spanish>Torreta</Spanish>
+        <German>Geschützturm</German>
       </Key>
-      <Key ID="STR_ENH_advancedDamageVeh_windows">
-        <Original>Windows (all)</Original>
-        <English>Windows (all)</English>
-        <Czech>Okna (vše)</Czech>
-        <French>Vitres (tout)</French>
-        <Spanish>Ventanas (todo)</Spanish>
-        <German>Fenster (Alle)</German>
+      <Key ID="STR_ENH_advancedDamageVeh_windows1">
+        <Original>Window #1</Original>
+        <English>Window #1</English>
+        <Czech>Okna #1</Czech>
+        <French>Fenêtre #1</French>
+        <Spanish>Ventana #1</Spanish>
+        <German>Fenster #1</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_windows2">
+        <Original>Window #2</Original>
+        <English>Window #2</English>
+        <Czech>Okna #2</Czech>
+        <French>Fenêtre #2</French>
+        <Spanish>Ventana #2</Spanish>
+        <German>Fenster #2</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_windows3">
+        <Original>Window #3</Original>
+        <English>Window #3</English>
+        <Czech>Okna #3</Czech>
+        <French>Fenêtre #3</French>
+        <Spanish>Ventana #3</Spanish>
+        <German>Fenster #3</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_windows4">
+        <Original>Window #4</Original>
+        <English>Window #4</English>
+        <Czech>Okna #4</Czech>
+        <French>Fenêtre #4</French>
+        <Spanish>Ventana #4</Spanish>
+        <German>Fenster #4</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_windows5">
+        <Original>Window #5</Original>
+        <English>Window #5</English>
+        <Czech>Okna #5</Czech>
+        <French>Fenêtre #5</French>
+        <Spanish>Ventana #5</Spanish>
+        <German>Fenster #5</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_windows6">
+        <Original>Window #6</Original>
+        <English>Window #6</English>
+        <Czech>Okna #6</Czech>
+        <French>Fenêtre #6</French>
+        <Spanish>Ventana #6</Spanish>
+        <German>Fenster #6</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_windows7">
+        <Original>Window #7</Original>
+        <English>Window #7</English>
+        <Czech>Okna #7</Czech>
+        <French>Fenêtre #7</French>
+        <Spanish>Ventana #7</Spanish>
+        <German>Fenster #7</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_LFWheel">
-        <Original>1st axle left wheel (car)</Original>
-        <English>1st axle left wheel (car)</English>
-        <Czech>První náprava levé kolo (auto)</Czech>
-        <French>1er essieu, roue gauche (voiture)</French>
-        <Spanish>Rueda izquierda 1er eje (auto)</Spanish>
-        <German>1. Achse, linkes Rad (Auto)</German>
+        <Original>1st axle left wheel</Original>
+        <English>1st axle left wheel</English>
+        <Czech>První náprava levé kolo</Czech>
+        <French>1er essieu, roue gauche</French>
+        <Spanish>Rueda izquierda 1er eje</Spanish>
+        <German>1. Achse, linkes Rad</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_RFWheel">
-        <Original>1st axle right wheel (car)</Original>
-        <English>1st axle right wheel (car)</English>
-        <Czech>První náprava pravé kolo (auto)</Czech>
-        <French>1er essieu, roue droite (voiture)</French>
-        <Spanish>Rueda derecha 1er eje (auto)</Spanish>
-        <German>1. Achse, rechtes Rad (Auto)</German>
+        <Original>1st axle right wheel</Original>
+        <English>1st axle right wheel</English>
+        <Czech>První náprava pravé kolo</Czech>
+        <French>1er essieu, roue droite</French>
+        <Spanish>Rueda derecha 1er eje</Spanish>
+        <German>1. Achse, rechtes Rad</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_LF2Wheel">
-        <Original>2nd axle left wheel (car)</Original>
-        <English>2nd axle left wheel (car)</English>
-        <Czech>Druhá náprava levé kolo (auto)</Czech>
-        <French>2ème essieu, roue gauche (voiture)</French>
-        <Spanish>Rueda izquierda 2º eje (auto)</Spanish>
-        <German>2. Achse, linkes Rad (Auto)</German>
+        <Original>2nd axle left wheel</Original>
+        <English>2nd axle left wheel</English>
+        <Czech>Druhá náprava levé kolo</Czech>
+        <French>2ème essieu, roue gauche</French>
+        <Spanish>Rueda izquierda 2º eje</Spanish>
+        <German>2. Achse, linkes Rad</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_RF2Wheel">
-        <Original>2nd axle right wheel (car)</Original>
-        <English>2nd axle right wheel (car)</English>
-        <Czech>Druhá náprava pravé kolo (auto)</Czech>
-        <French>2ème essieu, roue droite (voiture)</French>
-        <Spanish>Rueda derecha 2º eje (auto)</Spanish>
-        <German>2. Achse, rechtes Rad (Auto)</German>
+        <Original>2nd axle right wheel</Original>
+        <English>2nd axle right wheel</English>
+        <Czech>Druhá náprava pravé kolo</Czech>
+        <French>2ème essieu, roue droite</French>
+        <Spanish>Rueda derecha 2º eje</Spanish>
+        <German>2. Achse, rechtes Rad</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_LMWheel">
-        <Original>3rd axle left wheel (car)</Original>
-        <English>3rd axle left wheel (car)</English>
-        <Czech>Třetí náprava levé kolo (auto)</Czech>
-        <French>3ème essieu, roue gauche (voiture)</French>
-        <Spanish>Rueda izquierda 3er eje (auto)</Spanish>
-        <German>3. Achse, linkes Rad (Auto)</German>
+        <Original>3rd axle left wheel</Original>
+        <English>3rd axle left wheel</English>
+        <Czech>Třetí náprava levé kolo</Czech>
+        <French>3ème essieu, roue gauche</French>
+        <Spanish>Rueda izquierda 3er eje</Spanish>
+        <German>3. Achse, linkes Rad</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_RMWheel">
-        <Original>3rd axle right wheel (car)</Original>
-        <English>3rd axle right wheel (car)</English>
-        <Czech>Třetí náprava pravé kolo (auto)</Czech>
-        <French>3ème essieu, roue droite (voiture)</French>
-        <Spanish>Rueda derecha 3er eje (auto)</Spanish>
-        <German>3. Achse, rechtes Rad (Auto)</German>
+        <Original>3rd axle right wheel</Original>
+        <English>3rd axle right wheel</English>
+        <Czech>Třetí náprava pravé kolo</Czech>
+        <French>3ème essieu, roue droite</French>
+        <Spanish>Rueda derecha 3er eje</Spanish>
+        <German>3. Achse, rechtes Rad</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_LBWheel">
-        <Original>4th axle left wheel (car)</Original>
-        <English>4th axle left wheel (car)</English>
-        <Czech>Čtvrtá náprava levé kolo (auto)</Czech>
-        <French>4ème essieu, roue gauche (voiture)</French>
-        <Spanish>Rueda izquierda 4º eje (auto)</Spanish>
-        <German>4. Achse, linkes Rad (Auto)</German>
+        <Original>4th axle left wheel</Original>
+        <English>4th axle left wheel</English>
+        <Czech>Čtvrtá náprava levé kolo</Czech>
+        <French>4ème essieu, roue gauche</French>
+        <Spanish>Rueda izquierda 4º eje</Spanish>
+        <German>4. Achse, linkes Rad</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_RBWheel">
-        <Original>4th axle right wheel (car)</Original>
-        <English>4th axle right wheel (car)</English>
-        <Czech>Čtvrtá náprava pravé kolo (auto)</Czech>
-        <French>4ème essieu, roue droite (voiture)</French>
-        <Spanish>Rueda derecha 4º eje (auto)</Spanish>
-        <German>4. Achse, rechtes Rad (Auto)</German>
+        <Original>4th axle right wheel</Original>
+        <English>4th axle right wheel</English>
+        <Czech>Čtvrtá náprava pravé kolo</Czech>
+        <French>4ème essieu, roue droite</French>
+        <Spanish>Rueda derecha 4º eje</Spanish>
+        <German>4. Achse, rechtes Rad</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_body">
-        <Original>Body (car)</Original>
-        <English>Body (car)</English>
-        <Czech>Karoserie (auto)</Czech>
-        <French>Carrosserie (voiture)</French>
-        <Spanish>Chasis (auto)</Spanish>
-        <German>Karrosserie (Auto)</German>
+        <Original>Body</Original>
+        <English>Body</English>
+        <Czech>Karoserie</Czech>
+        <French>Carrosserie</French>
+        <Spanish>Chasis</Spanish>
+        <German>Karrosserie</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_LTrack">
-        <Original>Left track (tank)</Original>
-        <English>Left track (tank)</English>
-        <Czech>Levý pás (tank)</Czech>
-        <French>Chenille gauche (char)</French>
-        <Spanish>Oruga izquierda (carro)</Spanish>
-        <German>Linke Kette (Panzer)</German>
+        <Original>Left track</Original>
+        <English>Left track</English>
+        <Czech>Levý pás</Czech>
+        <French>Chenille gauche</French>
+        <Spanish>Oruga izquierda</Spanish>
+        <German>Linke Kette</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_RTrack">
-        <Original>Right track (tank)</Original>
-        <English>Right track (tank)</English>
-        <Czech>Pravý pás (tank)</Czech>
-        <French>Chenille droite (char)</French>
-        <Spanish>Oruga derecha (carro)</Spanish>
-        <German>Rechte Kette (Panzer)</German>
+        <Original>Right track</Original>
+        <English>Right track</English>
+        <Czech>Pravý pás</Czech>
+        <French>Chenille droite</French>
+        <Spanish>Oruga derecha</Spanish>
+        <German>Rechte Kette</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_hull">
-        <Original>Hull (tank &amp; helicopter)</Original>
-        <English>Hull (tank &amp; helicopter)</English>
-        <Czech>Pancíř (tank &amp; helikoptéra)</Czech>
-        <French>Blindage (char et hélicoptère)</French>
-        <Spanish>Casco (carro y helicóptero)</Spanish>
-        <German>Rumpf (Panzer &amp; Hubschrauber)</German>
+        <Original>Hull</Original>
+        <English>Hull</English>
+        <Czech>Pancíř</Czech>
+        <French>Blindage</French>
+        <Spanish>Casco</Spanish>
+        <German>Rumpf</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_avionics">
-        <Original>Avionics (helicopter)</Original>
-        <English>Avionics (helicopter)</English>
-        <Czech>Avionika (helikoptéra)</Czech>
-        <French>Avionique (hélicoptère)</French>
-        <Spanish>Aviónica (helicóptero)</Spanish>
-        <German>Bordelektronik (Hubschrauber)</German>
+        <Original>Avionics</Original>
+        <English>Avionics</English>
+        <Czech>Avionika</Czech>
+        <French>Avionique</French>
+        <Spanish>Aviónica</Spanish>
+        <German>Bordelektronik</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_mainRotor">
-        <Original>Main rotor (helicopter)</Original>
-        <English>Main rotor (helicopter)</English>
-        <Czech>Hlavní rotor (helikoptéra)</Czech>
-        <French>Rotor principal (hélicoptère)</French>
-        <Spanish>Rotor principal (helicóptero)</Spanish>
-        <German>Hauptrotor (Hubschrauber)</German>
+        <Original>Main rotor</Original>
+        <English>Main rotor</English>
+        <Czech>Hlavní rotor</Czech>
+        <French>Rotor principal</French>
+        <Spanish>Rotor principal</Spanish>
+        <German>Hauptrotor</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_tailRotor">
-        <Original>Tail Rotor (helicopter)</Original>
-        <English>Tail Rotor (helicopter)</English>
-        <Czech>Zadní rotor (helikoptéra)</Czech>
-        <French>Rotor de queue (hélicoptère)</French>
-        <Spanish>Rotor de cola (helicóptero)</Spanish>
-        <German>Heckrotor (Hubschrauber)</German>
+        <Original>Tail Rotor</Original>
+        <English>Tail Rotor</English>
+        <Czech>Zadní rotor</Czech>
+        <French>Rotor de queue</French>
+        <Spanish>Rotor de cola</Spanish>
+        <German>Heckrotor</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_leftAileron">
+        <Original>Left Aileron</Original>
+        <English>Left Aileron</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Linkes Querruder</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_leftRudder">
+        <Original>Left Rudder</Original>
+        <English>Left Rudder</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Linkes Ruder</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_RightRudder">
+        <Original>Right Rudder</Original>
+        <English>Right Rudder</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Rechtes Ruder</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_rightAileron">
+        <Original>Right Aileron</Original>
+        <English>Right Aileron</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Rechtes Querruder</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_rightElevator">
+        <Original>Right Elevator</Original>
+        <English>Right Elevator</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Rechtes Höhenruder</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_leftElevator">
+        <Original>Left Elevator</Original>
+        <English>Left Elevator</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Linkes Höhenruder</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_gearLights">
+        <Original>Gear Lights</Original>
+        <English>Gear Lights</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Fahrwerklichter</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_categories_allVehicles_title">
+        <Original>Various Vehicles</Original>
+        <English>Various Vehicles</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Verschiedene Fahrzeuge</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_categories_landVehicles_title">
+        <Original>Land Vehicles</Original>
+        <English>Land Vehicles</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Landfahrzeuge</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_categories_aeronauticalVehicles_title">
+        <Original>Aeronautical Vehicles</Original>
+        <English>Aeronautical Vehicles</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Luftfahrzeuge</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_categories_allVehicles_description">
+        <Original>Used by various vehicles.</Original>
+        <English>Used by various vehicles.</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Verwendet von verschiedenen Fahrzeugen.</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_categories_landVehicles_description">
+        <Original>Used by land vehicles.</Original>
+        <English>Used by land vehicles.</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Verwendet von Landfahrzeugen.</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_categories_aeronauticalVehicles_description">
+        <Original>Used by aeronautical vehicles.</Original>
+        <English>Used by aeronautical vehicles.</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Verwendet von Luftfahrzeugen.</German>
       </Key>
     </Container>
     <Container name="Advanced Damage Unit">
@@ -1453,10 +1621,15 @@
         <Spanish>Tomar el tamaño del objeto</Spanish>
         <German>Objektgröße messen</German>
       </Key>
-      <Key ID="STR_ENH_logPositions">
-        <Original>Log Positions</Original>
-        <English>Log Positions</English>
-        <German>Kopiere Positionen in Zwischenablage</German>
+      <Key ID="STR_ENH_logPositions2D">
+        <Original>Log Positions (2D)</Original>
+        <English>Log Positions (2D)</English>
+        <German>Kopiere Positionen (2D) in Zwischenablage</German>
+      </Key>
+      <Key ID="STR_ENH_logPositions3D">
+        <Original>Log Positions (3D)</Original>
+        <English>Log Positions (3D)</English>
+        <German>Kopiere Positionen (3D) in Zwischenablage</German>
       </Key>
       <Key ID="STR_ENH_logCompositionToSQF">
         <Original>Log Composition to Clipboard</Original>
@@ -3408,6 +3581,41 @@
         <Original>All units and their movement will be visible on the map during scenario preview.</Original>
         <English>All units and their movement will be visible on the map during scenario preview.</English>
         <German>Alle Einheiten werden auf der Karte wären der Szenariovorschau angezeigt.</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_killWest_displayName">
+        <Original>Kill Units (West)</Original>
+        <English>Kill Units (West)</English>
+        <German>Einheiten töten (Westen)</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_killUnits_tooltip">
+        <Original>Adds an entry to the action menu during scenario preview which instantly kills all units of given side.</Original>
+        <English>Adds an entry to the action menu during scenario preview which instantly kills all units of given side.</English>
+        <German>Fügt einen Eintrag während der Szenariovorschau zum Aktionsmenü hinzu welche alle Einheiten der gegebenen Seite tötet.</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_killCiv_displayName">
+        <Original>Kill Units (Civilian)</Original>
+        <English>Kill Units (Civilian)</English>
+        <German>Einheiten töten (Zivil)</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_killCursor_displayName">
+        <Original>Kill Cursor Target</Original>
+        <English>Kill Cursor Target</English>
+        <German>Cursor Target töten</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_killCursor_tooltip">
+        <Original>Adds an entry to the action menu during scenario preview which instantly kills the unit the player is looking at.</Original>
+        <English>Adds an entry to the action menu during scenario preview which instantly the unit the player is looking at.</English>
+        <German>Fügt einen Eintrag während der Szenariovorschau zum Aktionsmenü hinzu welche sofort die anvisierte Einheit tötet.</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_killIndep_displayName">
+        <Original>Kill Units (Independent)</Original>
+        <English>Kill Units (Independent)</English>
+        <German>Einheiten töten (Unabhängige)</German>
+      </Key>
+      <Key ID="STR_ENH_onPreviewDebug_killEast_displayName">
+        <Original>Kill Units (East)</Original>
+        <English>Kill Units (East)</English>
+        <German>Einheiten töten (Osten)</German>
       </Key>
     </Container>
   </Package>
