@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="3den Enhanced">
-  <Package name="Mission Attributes">
+  <Package name="Attributes: Mission">
     <Container name="Enable Team Switch">
       <Key ID="STR_ENH_disableTeamSwitch_displayName">
         <Original>Enable Team Switch</Original>
@@ -269,7 +269,7 @@
       </Key>
     </Container>
   </Package>
-  <Package name="Object Attributes">
+  <Package name="Attributes: Object">
     <Container name="Weapon Sway">
       <Key ID="STR_ENH_weaponSway_displayName">
         <Original>Weapon Sway</Original>
@@ -331,6 +331,14 @@
         <French>Moteur #1</French>
         <Spanish>Motor #1</Spanish>
         <German>Motor #1</German>
+      </Key>
+      <Key ID="STR_ENH_advancedDamageVeh_hull">
+        <Original>Hull</Original>
+        <English>Hull</English>
+        <Czech>Pancíř</Czech>
+        <French>Blindage</French>
+        <Spanish>Casco</Spanish>
+        <German>Hülle</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_engine2">
         <Original>Engine #2</Original>
@@ -515,14 +523,6 @@
         <French>Chenille droite</French>
         <Spanish>Oruga derecha</Spanish>
         <German>Rechte Kette</German>
-      </Key>
-      <Key ID="STR_ENH_advancedDamageVeh_hull">
-        <Original>Hull</Original>
-        <English>Hull</English>
-        <Czech>Pancíř</Czech>
-        <French>Blindage</French>
-        <Spanish>Casco</Spanish>
-        <German>Rumpf</German>
       </Key>
       <Key ID="STR_ENH_advancedDamageVeh_avionics">
         <Original>Avionics</Original>
@@ -1526,7 +1526,7 @@
         <German>Beeinflusst die Sichtbarkeit des Objektes.</German>
       </Key>
     </Container>
-    <Container name="Remove from remains collector">
+    <Container name="Remains Collector">
       <Key ID="STR_ENH_removeFromRemainsCollector_displayName">
         <Original>Deactivate deletion on death</Original>
         <English>Deactivate deletion on death</English>
@@ -1656,14 +1656,6 @@
         <Spanish>Resumen de las funciones...</Spanish>
         <German>Funktionsübersicht...</German>
       </Key>
-      <Key ID="STR_ENH_HelpAssets">
-        <Original>Assets Overview...</Original>
-        <English>Assets Overview...</English>
-        <Czech>Přehled objektů...</Czech>
-        <French>Aperçu des assets...</French>
-        <Spanish>Resumen de assets...</Spanish>
-        <German>Objektübersicht...</German>
-      </Key>
       <Key ID="STR_ENH_HelpKKBlog">
         <Original>KK's Blog...</Original>
         <English>KK's Blog...</English>
@@ -1679,22 +1671,6 @@
         <French>Exemples de scripts par Kylania...</French>
         <Spanish>Ejemplos de scripts por Kylania...</Spanish>
         <German>Skriptbespiele von Kylania...</German>
-      </Key>
-      <Key ID="STR_ENH_HelpJester814">
-        <Original>Jester814's Video Tutorials...</Original>
-        <English>Jester814's Video Tutorials...</English>
-        <Czech>Jester814's Video Tutorials...</Czech>
-        <French>Tutoriels Vidéos par Jester814...</French>
-        <Spanish>Vídeo tutoriales de Jester814 ...</Spanish>
-        <German>Jester814's Video Tutorials...</German>
-      </Key>
-      <Key ID="STR_ENH_HelpArmaidiot">
-        <Original>Armaidiot's Video Tutorials...</Original>
-        <English>Armaidiot's Video Tutorials...</English>
-        <Czech>Armaidiot's Video Tutorials...</Czech>
-        <French>Tutoriels Vidéos de Armaidiot</French>
-        <Spanish>Vídeo tutoriales de Armaidiot...</Spanish>
-        <German>Armaidiot's Video Tutorials...</German>
       </Key>
       <Key ID="STR_ENH_HelpFockersScriptingTutorial">
         <Original>Focker's Scripting Tutorial...</Original>
@@ -1712,14 +1688,6 @@
         <Spanish>Guía: Misión y Campaña...</Spanish>
         <German>Leitfaden: Missions- und Kampagnenerstellung...</German>
       </Key>
-      <Key ID="STR_ENH_HelpFeuerex">
-        <Original>Feuerex's Video Tutorials...</Original>
-        <English>Feuerex's  Video Tutorials...</English>
-        <Czech>Feuerex's Video Tutorials...</Czech>
-        <French>Tutoriels Vidéos de Feuerex...</French>
-        <Spanish>Vídeo tutoriales de Feuerex...</Spanish>
-        <German>Feuerex's  Video Tutorials...</German>
-      </Key>
       <Key ID="STR_ENH_HelpMissionPresentation">
         <Original>Mission Presentation...</Original>
         <English>Mission Presentation...</English>
@@ -1727,14 +1695,6 @@
         <French>Mise en page de la Présentation d'une Mission...</French>
         <Spanish>Presentación de misión...</Spanish>
         <German>Missionsdarstellung...</German>
-      </Key>
-      <Key ID="STR_ENH_Help3denEnhanced">
-        <Original>3den Enhanced Forum...</Original>
-        <English>3den Enhanced Forum...</English>
-        <Czech>Fórum 3den Enhanced...</Czech>
-        <French>Forum 3den Enhanced...</French>
-        <Spanish>Foro 3den Enhanced...</Spanish>
-        <German>3den Enhanced Forum...</German>
       </Key>
       <Key ID="STR_ENH_HelpScriptingFoxhoundInternational">
         <Original>Příklady skriptů od Foxhound International...</Original>
@@ -1759,11 +1719,6 @@
         <Spanish>Compilación de scripts por Gunter Severloh...</Spanish>
         <German>KI Zusammenstellung von Gunter Severloh...</German>
       </Key>
-      <Key ID="STR_ENH_EdenEnhancedChangelog">
-        <Original>Eden Enhanced Changelog...</Original>
-        <English>Eden Enhanced Changelog...</English>
-        <German>Eden Enhanced Änderungshistorie...</German>
-      </Key>
     </Container>
     <Container name="Statusbar">
       <Key ID="STR_ENH_display3DEN_sessionTime_tooltip">
@@ -1785,11 +1740,11 @@
         <German>Bereich füllen...</German>
       </Key>
       <Key ID="STR_ENH_tools_copyLoadouts_displayName">
-        <Original>Copy Loadout(s)</Original>
-        <English>Copy Loadout(s)</English>
+        <Original>Copy Loadout/s</Original>
+        <English>Copy Loadout/s</English>
         <Czech>Kopírovat výstroj</Czech>
         <French>Copier l'équipement</French>
-        <Spanish>Copiar equipamiento(s)</Spanish>
+        <Spanish>Copiar equipamiento/s</Spanish>
         <German>Kopiere Ausrüstung</German>
       </Key>
       <Key ID="STR_ENH_tools_applyLoadouts_displayName">
@@ -1797,7 +1752,7 @@
         <English>Apply Loadout/s</English>
         <Czech>Použít výstroj</Czech>
         <French>Appliquer l'équipement</French>
-        <Spanish>Aplicar equipamiento(s)</Spanish>
+        <Spanish>Aplicar equipamiento/s</Spanish>
         <German>Ausrüstung zuweisen</German>
       </Key>
       <Key ID="STR_ENH_tools_exportLoadoutConfig_displayName">
@@ -1981,75 +1936,15 @@
         <Spanish>Cambio de nombre en lote...</Spanish>
         <German>Objekte benennen...</German>
       </Key>
-      <Key ID="STR_ENH_textureFinder">
+      <Key ID="STR_ENH_tools_textureFinder">
         <Original>Texture Finder...</Original>
         <English>Texture Finder...</English>
         <German>Texturen suchen...</German>
       </Key>
-      <Key ID="STR_ENH_colourPicker">
+      <Key ID="STR_ENH_tools_colourPicker">
         <Original>Colour Picker...</Original>
         <English>Colour Picker...</English>
         <German>Farbauswahl Werkzeug...</German>
-      </Key>
-    </Container>
-    <Container name="Tool Folders">
-      <Key ID="STR_ENH_toolFolder_utilities_displayName">
-        <Original>Utilities...</Original>
-        <English>Utilities...</English>
-        <Czech />
-        <French />
-        <Spanish>Utilidades...</Spanish>
-        <German>Hilfsmittel...</German>
-      </Key>
-      <Key ID="STR_ENH_toolFolder_placement_displayName">
-        <Original>Placement Tools...</Original>
-        <English>Placement Tools...</English>
-        <Czech>Nástroje umisťování...</Czech>
-        <French>Outils de positionnement...</French>
-        <Spanish>Herramienta de posicionamiento...</Spanish>
-        <German>Platzierungswerkzeuge...</German>
-      </Key>
-      <Key ID="STR_ENH_toolFolder_debug_displayName">
-        <Original>Debug Tools...</Original>
-        <English>Debug Tools...</English>
-        <Czech>Nástroje pro debug...</Czech>
-        <French>Outil de débugage...</French>
-        <Spanish>Herramientas de depuración...</Spanish>
-        <German>Debugwerkzeuge...</German>
-      </Key>
-      <Key ID="STR_ENH_toolFolder_loadout_displayName">
-        <Original>Loadout Tools...</Original>
-        <English>Loadout Tools...</English>
-        <Czech>Nástroje pro výstroj...</Czech>
-        <French>Outil d'équipement...</French>
-        <Spanish>Herramientas de equipamiento...</Spanish>
-        <German>Ausrüstungswerkzeuge...</German>
-      </Key>
-    </Container>
-    <Container name="Help Folders">
-      <Key ID="STR_ENH_HelpFolder_Wiki">
-        <Original>Arma 3 Wiki...</Original>
-        <English>Arma 3 Wiki...</English>
-        <Czech>Arma 3 Wiki...</Czech>
-        <French>Liens Wiki Arma 3...</French>
-        <Spanish>Wiki de Arma 3...</Spanish>
-        <German>Arma 3 Wiki</German>
-      </Key>
-      <Key ID="STR_ENH_HelpFolder_Community">
-        <Original>Community Help...</Original>
-        <English>Community Help...</English>
-        <Czech>Komunitní podporay...</Czech>
-        <French>Aide de la Communauté...</French>
-        <Spanish>Ayuda de la comunidad...</Spanish>
-        <German>Community Hilfe...</German>
-      </Key>
-      <Key ID="STR_ENH_HelpFolder_Youtube">
-        <Original>Youtube Tutorials...</Original>
-        <English>Youtube Tutorials...</English>
-        <Czech>Návody na Youtube...</Czech>
-        <French>Tutoriels Youtube...</French>
-        <Spanish>Tutoriales de youtube...</Spanish>
-        <German>Youtube Tutorials...</German>
       </Key>
     </Container>
     <Container name="Debug Tools">
@@ -2094,6 +1989,102 @@
         <Original>Clear Chat</Original>
         <English>Clear Chat</English>
         <German>Chat leeren</German>
+      </Key>
+    </Container>
+    <Container name="About">
+      <Key ID="STR_ENH_AboutChangelog">
+        <Original>Changelog...</Original>
+        <English>Changelog...</English>
+        <German>Änderungshistorie...</German>
+      </Key>
+      <Key ID="STR_ENH_AboutForums">
+        <Original>Forums...</Original>
+        <English>Forums...</English>
+        <Czech>Fóra...</Czech>
+        <French>Forums...</French>
+        <Spanish>Foros...</Spanish>
+        <Italian>Forum...</Italian>
+        <Polish>Forum...</Polish>
+        <Portuguese>Fóruns...</Portuguese>
+        <Russian>Форумы...</Russian>
+        <German>Foren...</German>
+      </Key>
+      <Key ID="STR_ENH_AboutSteam">
+        <Original>Steam Page...</Original>
+        <English>Steam Page...</English>
+        <German>Steam Seite...</German>
+      </Key>
+      <Key ID="STR_ENH_AboutTranslation">
+        <Original>Help Translating...</Original>
+        <English>Help Translating...</English>
+        <German>Beim Übersetzen helfen...</German>
+      </Key>
+    </Container>
+    <Container name="Menu Strip Folders">
+      <Key ID="STR_ENH_AboutFolder">
+        <Original>About 3den++</Original>
+        <English>About 3den++</English>
+        <German>Über 3den++</German>
+      </Key>
+      <Key ID="STR_ENH_HelpFolder_Wiki">
+        <Original>Community Wiki...</Original>
+        <English>Community Wiki...</English>
+        <Czech>Komunitní encyklopedie Wiki...</Czech>
+        <French>Wiki de la communauté...</French>
+        <Spanish>Wiki de comunidad...</Spanish>
+        <Italian>Wiki della Community...</Italian>
+        <Polish>Wiki społeczności...</Polish>
+        <Portuguese>Wiki da comunidade...</Portuguese>
+        <Russian>Страница сообщества...</Russian>
+        <German>Community-Wiki...</German>
+      </Key>
+      <Key ID="STR_ENH_HelpFolder_Youtube">
+        <Original>Youtube Tutorials...</Original>
+        <English>Youtube Tutorials...</English>
+        <Czech>Návody na Youtube...</Czech>
+        <French>Tutoriels Youtube...</French>
+        <Spanish>Tutoriales de youtube...</Spanish>
+        <German>Youtube Tutorials...</German>
+      </Key>
+      <Key ID="STR_ENH_HelpFolder_Community">
+        <Original>Community Help...</Original>
+        <English>Community Help...</English>
+        <Czech>Komunitní podporay...</Czech>
+        <French>Aide de la Communauté...</French>
+        <Spanish>Ayuda de la comunidad...</Spanish>
+        <German>Community Hilfe...</German>
+      </Key>
+      <Key ID="STR_ENH_toolFolder_utilities_displayName">
+        <Original>Utilities...</Original>
+        <English>Utilities...</English>
+        <Czech />
+        <French />
+        <Spanish>Utilidades...</Spanish>
+        <German>Hilfsmittel...</German>
+      </Key>
+      <Key ID="STR_ENH_toolFolder_placement_displayName">
+        <Original>Placement Tools...</Original>
+        <English>Placement Tools...</English>
+        <Czech>Nástroje umisťování...</Czech>
+        <French>Outils de positionnement...</French>
+        <Spanish>Herramienta de posicionamiento...</Spanish>
+        <German>Platzierungswerkzeuge...</German>
+      </Key>
+      <Key ID="STR_ENH_toolFolder_debug_displayName">
+        <Original>Debug Tools...</Original>
+        <English>Debug Tools...</English>
+        <Czech>Nástroje pro debug...</Czech>
+        <French>Outil de débugage...</French>
+        <Spanish>Herramientas de depuración...</Spanish>
+        <German>Debugwerkzeuge...</German>
+      </Key>
+      <Key ID="STR_ENH_toolFolder_loadout_displayName">
+        <Original>Loadout Tools...</Original>
+        <English>Loadout Tools...</English>
+        <Czech>Nástroje pro výstroj...</Czech>
+        <French>Outil d'équipement...</French>
+        <Spanish>Herramientas de equipamiento...</Spanish>
+        <German>Ausrüstungswerkzeuge...</German>
       </Key>
     </Container>
   </Package>
@@ -2647,13 +2638,6 @@
         <German>Hilfe</German>
       </Key>
     </Container>
-    <Container name="Changelog">
-      <Key ID="STR_ENH_changelog_header">
-        <Original>3den Enhanced Changelog</Original>
-        <English>3den Enhanced Changelog</English>
-        <German>3den Enhanced Changelog</German>
-      </Key>
-    </Container>
     <Container name="Name Units">
       <Key ID="STR_ENH_nameObjects_header">
         <Original>Name Objects</Original>
@@ -2969,7 +2953,7 @@
       </Key>
     </Container>
   </Package>
-  <Package name="Group Attributes">
+  <Package name="Attributes: Group">
     <Container name="Task Patrol">
       <Key ID="STR_ENH_taskPatrol_displayname">
         <Original>Task Patrol</Original>
@@ -3438,7 +3422,7 @@
       </Key>
     </Container>
   </Package>
-  <Package name="Editor Attributes">
+  <Package name="Attributes: Editor">
     <Container name="On Preview Debug">
       <Key ID="STR_ENH_onMissionDebug_captive_displayName">
         <Original>Enable Captive Mode</Original>
