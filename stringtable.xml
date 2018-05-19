@@ -2019,6 +2019,11 @@
         <English>Help Translating...</English>
         <German>Beim Übersetzen helfen...</German>
       </Key>
+      <Key ID="STR_ENH_AboutFAQ">
+        <Original>FAQ...</Original>
+        <English>FAQ...</English>
+        <German>FAQ...</German>
+      </Key>
     </Container>
     <Container name="Menu Strip Folders">
       <Key ID="STR_ENH_AboutFolder">
