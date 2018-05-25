@@ -2024,12 +2024,17 @@
         <English>FAQ...</English>
         <German>FAQ...</German>
       </Key>
+      <Key ID="STR_ENH_AboutCredits">
+        <Original>Credits...</Original>
+        <English>Credits...</English>
+        <German>Credits...</German>
+      </Key>
     </Container>
     <Container name="Menu Strip Folders">
       <Key ID="STR_ENH_AboutFolder">
-        <Original>About 3den++</Original>
-        <English>About 3den++</English>
-        <German>Über 3den++</German>
+        <Original>About 3den Enhanced</Original>
+        <English>About 3den Enhanced</English>
+        <German>Über 3den Enhanced</German>
       </Key>
       <Key ID="STR_ENH_HelpFolder_Wiki">
         <Original>Community Wiki...</Original>
