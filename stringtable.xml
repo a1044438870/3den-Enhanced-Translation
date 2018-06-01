@@ -1646,6 +1646,11 @@
         <English>Log Object Info</English>
         <German>Objektinfo. in Zwischenablage aufzeichnen</German>
       </Key>
+      <Key ID="STR_ENH_logGridPosition">
+        <Original>Log Grid Position</Original>
+        <English>Log Grid Position</English>
+        <German>Rasterposition in Zwischenablage aufzeichnen</German>
+      </Key>
     </Container>
     <Container name="Help">
       <Key ID="STR_ENH_HelpFunctionsOverview">
@@ -1718,6 +1723,13 @@
         <French>Compilation de scripts pour l'IA par Gunter Severloh</French>
         <Spanish>Compilación de scripts por Gunter Severloh...</Spanish>
         <German>KI Zusammenstellung von Gunter Severloh...</German>
+      </Key>
+      <Key ID="STR_ENH_CodeOptimisation">
+        <Original>Code Optimisation</Original>
+        <English>Code Optimisation</English>
+        <French />
+        <Spanish />
+        <German>Code-Optimierung</German>
       </Key>
     </Container>
     <Container name="Statusbar">
@@ -2024,12 +2036,17 @@
         <English>FAQ...</English>
         <German>FAQ...</German>
       </Key>
+      <Key ID="STR_ENH_AboutCredits">
+        <Original>Credits...</Original>
+        <English>Credits...</English>
+        <German>Credits...</German>
+      </Key>
     </Container>
     <Container name="Menu Strip Folders">
       <Key ID="STR_ENH_AboutFolder">
-        <Original>About 3den++</Original>
-        <English>About 3den++</English>
-        <German>Über 3den++</German>
+        <Original>About 3den Enhanced</Original>
+        <English>About 3den Enhanced</English>
+        <German>Über 3den Enhanced</German>
       </Key>
       <Key ID="STR_ENH_HelpFolder_Wiki">
         <Original>Community Wiki...</Original>
