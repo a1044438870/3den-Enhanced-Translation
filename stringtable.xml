@@ -268,6 +268,18 @@
         <German>Stellt alle lebenden Objekte alle 60 Sekunden für jeden Kurator zum Bearbeiten zur Verfügung. Wenn keine Kuratoren vorhanden sind, funktioniert dieses Attribut nicht.</German>
       </Key>
     </Container>
+    <Container name="Group Indicator">
+      <Key ID="STR_ENH_groupIndicator_displayName">
+        <Original>Show Group Indicator</Original>
+        <English>Show Group Indicator</English>
+        <German>Zeige Gruppenradar</German>
+      </Key>
+      <Key ID="STR_ENH_groupIndicator_tooltip">
+        <Original>Shows a group indicator at the right hand side of the screen.</Original>
+        <English>Shows a group indicator at the right hand side of the screen.</English>
+        <German>Zeigt ein Gruppenradar auf der rechten Bildschirmseite.</German>
+      </Key>
+    </Container>
   </Package>
   <Package name="Attributes: Object">
     <Container name="Weapon Sway">
@@ -1878,6 +1890,14 @@
         <Spanish>Hierba Sí/No</Spanish>
         <German>Gras an/aus</German>
       </Key>
+      <Key ID="STR_ENH_tools_gridPattern">
+        <Original>Grid Pattern...</Original>
+        <English>Grid Pattern...</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Im Raster anordnen...</German>
+      </Key>
       <Key ID="STR_ENH_tools_exportGUIBaseClasses">
         <Original>Export GUI Base Classes (All)</Original>
         <English>Export GUI Base Classes (All)</English>
@@ -1957,6 +1977,11 @@
         <Original>Colour Picker...</Original>
         <English>Colour Picker...</English>
         <German>Farbauswahl Werkzeug...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_toggleSimpleObject">
+        <Original>Toggle Simple Object</Original>
+        <English>Toggle Simple Object</English>
+        <German>Zwischen einfachem Objekt umschalten</German>
       </Key>
     </Container>
     <Container name="Debug Tools">
@@ -2972,6 +2997,38 @@
         <Original>All selected objects will be replaced by the object types you enter in the edit box below randomly.</Original>
         <English>All selected objects will be replaced by the object types you enter in the edit box below randomly.</English>
         <German>Alle ausgewählten Objekte werden durch die hier angegebenen Objekttypen willkürlich ausgetauscht.</German>
+      </Key>
+    </Container>
+    <Container name="Export Loadout">
+      <Key ID="STR_ENH_exportLoadout_header">
+        <Original>Export Loadout to Respawn Inventory</Original>
+        <English>Export Loadout to Respawn Inventory</English>
+        <German>Wiedereinstiegs-Ausrüstung exportieren</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_className">
+        <Original>Class Name</Original>
+        <English>Class Name</English>
+        <German>Klassenname</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_displayName">
+        <Original>Display Name</Original>
+        <English>Display Name</English>
+        <German>Anzeigename</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_icon">
+        <Original>Icon</Original>
+        <English>Icon</English>
+        <German>Icon</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_role">
+        <Original>Role</Original>
+        <English>Role</English>
+        <German>Rolle</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_condition">
+        <Original>Condition</Original>
+        <English>Condition</English>
+        <German>Bedingung</German>
       </Key>
     </Container>
   </Package>
