@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="3den Enhanced">
   <Package name="Attributes: Mission">
-    <Container name="Enable Team Switch">
-      <Key ID="STR_ENH_disableTeamSwitch_displayName">
-        <Original>Enable Team Switch</Original>
-        <English>Enable Team Switch</English>
-        <German>Teamwechsel erlauben</German>
-      </Key>
-    </Container>
     <Container name="Time Multiplier">
       <Key ID="STR_ENH_timeMultiplier_displayName">
         <Original>Time Multiplier</Original>
@@ -278,6 +271,43 @@
         <Original>Shows a group indicator at the right hand side of the screen.</Original>
         <English>Shows a group indicator at the right hand side of the screen.</English>
         <German>Zeigt ein Gruppenradar auf der rechten Bildschirmseite.</German>
+      </Key>
+    </Container>
+    <Container name="Map Indicators">
+      <Key ID="STR_ENH_mapIndicators_friendlyText">
+        <Original>Don't show friendly units</Original>
+        <English>Don't show friendly units</English>
+        <German>Freundliche Einheiten nicht zeigen</German>
+      </Key>
+      <Key ID="STR_ENH_mapIndicators_enemyText">
+        <Original>Don't show hostile units</Original>
+        <English>Don't show hostile units</English>
+        <German>Feindliche Einheiten nicht zeigen</German>
+      </Key>
+      <Key ID="STR_ENH_mapIndicators_minesText">
+        <Original>Don't show mines</Original>
+        <English>Don't show mines</English>
+        <German>Minen nicht zeigen</German>
+      </Key>
+      <Key ID="STR_ENH_mapIndicators_pingText">
+        <Original>Don't show tactical ping</Original>
+        <English>Don't show tactical ping</English>
+        <German>Taktischen Ping nicht zeigen</German>
+      </Key>
+      <Key ID="STR_ENH_mapIndicatorsDescription_displayName">
+        <Original>Description:</Original>
+        <English>Description:</English>
+        <German>Beschreibung:</German>
+      </Key>
+      <Key ID="STR_ENH_mapIndicatorsDescription_description">
+        <Original>Disables map indicators for friendly and hostile units, mines and tactical ping. Overwrites player's difficulty settings! </Original>
+        <English>Disables map indicators for friendly and hostile units, mines and tactical ping. Overwrites player's difficulty settings!</English>
+        <German>Deaktiviert Kartenindikatoren für freundliche und feindliche Einheiten sowie Minen und den taktischen Ping. Überschreibt die Einstellungen des Spielers!</German>
+      </Key>
+      <Key ID="STR_ENH_mapIndicators_displayName">
+        <Original>Map Indicators</Original>
+        <English>Map Indicators</English>
+        <German>Kartenindikatoren</German>
       </Key>
     </Container>
   </Package>
@@ -1587,7 +1617,7 @@
   </Package>
   <Package name="Display3DEN.hpp">
     <Container name="Context Menu">
-      <Key ID="STR_ENH_logClassName">
+      <Key ID="STR_ENH_contextMenu_logClass">
         <Original>Log Class to Clipboard</Original>
         <English>Log Class to Clipboard</English>
         <Czech>Zaznamenat třídu do schránky</Czech>
@@ -1595,7 +1625,7 @@
         <Spanish>Registar "Class" en el portapapeles.</Spanish>
         <German>Kopiere Klasse in Zwischenablage</German>
       </Key>
-      <Key ID="STR_ENH_getModuleDescription">
+      <Key ID="STR_ENH_contextMenu_getModuleDescription">
         <Original>Module Description...</Original>
         <English>Module Description...</English>
         <Czech>Zobrazit popis modulu...</Czech>
@@ -1603,7 +1633,7 @@
         <Spanish>Mostrar descripción del módulo...</Spanish>
         <German>Modulbeschreibung...</German>
       </Key>
-      <Key ID="STR_ENH_garrison_header">
+      <Key ID="STR_ENH_contextMenu_garrisonHeader">
         <Original>Garrison Buildings...</Original>
         <English>Garrison Buildings...</English>
         <Czech>Obsadit budovy...</Czech>
@@ -1611,7 +1641,7 @@
         <Spanish>Guarnicionar edificios...</Spanish>
         <German>Gebäude besetzen...</German>
       </Key>
-      <Key ID="STR_ENH_setTriggerOwnerPlayer">
+      <Key ID="STR_ENH_contextMenu_setTriggerOwnerPlayer">
         <Original>Set Player as Trigger Owner</Original>
         <English>Set Player as Trigger Owner</English>
         <Czech>Nastavit hráče jako vlastníka spínače</Czech>
@@ -1619,53 +1649,63 @@
         <Spanish>Establecer jugador como propietario del trigger (activador)</Spanish>
         <German>Spieler als Auslöser-Besitzer festlegen</German>
       </Key>
-      <Key ID="STR_ENH_deleteCrew">
+      <Key ID="STR_ENH_contextMenu_deleteCrew">
         <Original>Delete Crew</Original>
         <English>Delete Crew</English>
         <French>Supprimer l'équipage</French>
         <Spanish>Borrar tripulación</Spanish>
         <German>Besatzung entfernen</German>
       </Key>
-      <Key ID="STR_ENH_getSize">
+      <Key ID="STR_ENH_contextMenu_getSize">
         <Original>Get Object's Size</Original>
         <English>Get Object's Size</English>
         <French>Obtenir les dimensions de l'objet</French>
         <Spanish>Tomar el tamaño del objeto</Spanish>
         <German>Objektgröße messen</German>
       </Key>
-      <Key ID="STR_ENH_logPositions2D">
+      <Key ID="STR_ENH_contextMenu_logPositions2D">
         <Original>Log Positions (2D)</Original>
         <English>Log Positions (2D)</English>
         <German>Kopiere Positionen (2D) in Zwischenablage</German>
       </Key>
-      <Key ID="STR_ENH_logPositions3D">
+      <Key ID="STR_ENH_contextMenu_logFaction">
+        <Original>Log Faction Names</Original>
+        <English>Log Faction Names</English>
+        <Czech>Zaznamenat názvy frakcí</Czech>
+        <French>Log du nom des factions</French>
+        <Spanish>Registrar nombres de facción</Spanish>
+        <German>Fraktionsnamen kopieren</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_logPositions3D">
         <Original>Log Positions (3D)</Original>
         <English>Log Positions (3D)</English>
         <German>Kopiere Positionen (3D) in Zwischenablage</German>
       </Key>
-      <Key ID="STR_ENH_logCompositionToSQF">
-        <Original>Log Composition to Clipboard</Original>
-        <English>Log Composition to Clipboard</English>
-        <German>Kopiere Zusammenstellung in Zwischenablage</German>
-      </Key>
-      <Key ID="STR_ENH_show3DENID">
+      <Key ID="STR_ENH_contextMenu_show3DENID">
         <Original>Show 3DEN Entity ID</Original>
         <English>Show 3DEN Entity ID</English>
         <German>Zeige 3DEN Objekt ID</German>
       </Key>
-      <Key ID="STR_ENH_logObjectInfo">
+      <Key ID="STR_ENH_contextMenu_measureDistance">
+        <Original>Měření vzdálenosti</Original>
+        <English>Measure Distance</English>
+        <French>Mesurer la distance</French>
+        <Spanish>Medición de distancia</Spanish>
+        <German>Distanz messen</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_logObjectInfo">
         <Original>Log Object Info</Original>
         <English>Log Object Info</English>
         <German>Objektinfo. in Zwischenablage aufzeichnen</German>
       </Key>
-      <Key ID="STR_ENH_logGridPosition">
+      <Key ID="STR_ENH_contextMenu_logGridPosition">
         <Original>Log Grid Position</Original>
         <English>Log Grid Position</English>
         <German>Rasterposition in Zwischenablage aufzeichnen</German>
       </Key>
     </Container>
     <Container name="Help">
-      <Key ID="STR_ENH_HelpFunctionsOverview">
+      <Key ID="STR_ENH_help_functionsOverview">
         <Original>Functions Overview...</Original>
         <English>Functions Overview...</English>
         <Czech>Přehled funkce...</Czech>
@@ -1673,7 +1713,7 @@
         <Spanish>Resumen de las funciones...</Spanish>
         <German>Funktionsübersicht...</German>
       </Key>
-      <Key ID="STR_ENH_HelpKKBlog">
+      <Key ID="STR_ENH_help_KKBlog">
         <Original>KK's Blog...</Original>
         <English>KK's Blog...</English>
         <Czech>KK's Blog...</Czech>
@@ -1681,7 +1721,7 @@
         <Spanish>Blog de KillzoneKid...</Spanish>
         <German>KK's Blog...</German>
       </Key>
-      <Key ID="STR_ENH_HelpKylania">
+      <Key ID="STR_ENH_help_kylania">
         <Original>Script Examples by Kylania...</Original>
         <English>Script Examples by Kylania...</English>
         <Czech>Script Examples by Kylania...</Czech>
@@ -1689,7 +1729,7 @@
         <Spanish>Ejemplos de scripts por Kylania...</Spanish>
         <German>Skriptbespiele von Kylania...</German>
       </Key>
-      <Key ID="STR_ENH_HelpFockersScriptingTutorial">
+      <Key ID="STR_ENH_help_fockersScriptingTutorial">
         <Original>Focker's Scripting Tutorial...</Original>
         <English>Focker's Scripting Tutorial...</English>
         <Czech>Focker's Scripting Tutorial...</Czech>
@@ -1697,7 +1737,7 @@
         <Spanish>Tutorial scripting de Focker...</Spanish>
         <German>Focker's Programmiertutorial...</German>
       </Key>
-      <Key ID="STR_ENH_HelpMissionCampaignGuide">
+      <Key ID="STR_ENH_help_missionCampaignGuide">
         <Original>Guide: Mission &amp; Campaign making...</Original>
         <English>Guide: Mission &amp; Campaign making...</English>
         <Czech>Návod: vytváření misí &amp; kampaní...</Czech>
@@ -1705,7 +1745,7 @@
         <Spanish>Guía: Misión y Campaña...</Spanish>
         <German>Leitfaden: Missions- und Kampagnenerstellung...</German>
       </Key>
-      <Key ID="STR_ENH_HelpMissionPresentation">
+      <Key ID="STR_ENH_help_missionPresentation">
         <Original>Mission Presentation...</Original>
         <English>Mission Presentation...</English>
         <Czech>Prezentace mise...</Czech>
@@ -1713,7 +1753,7 @@
         <Spanish>Presentación de misión...</Spanish>
         <German>Missionsdarstellung...</German>
       </Key>
-      <Key ID="STR_ENH_HelpScriptingFoxhoundInternational">
+      <Key ID="STR_ENH_help_foxhoundInternational">
         <Original>Příklady skriptů od Foxhound International...</Original>
         <English>Scripting Examples by Foxhound International...</English>
         <Czech>Scripting Examples by Foxhound International...</Czech>
@@ -1721,7 +1761,7 @@
         <Spanish>Ejemplos de scripts de foxhound Internacional ...</Spanish>
         <German>Skriptbeispiele von Foxhound International...</German>
       </Key>
-      <Key ID="STR_ENH_HelpScriptingBeginners">
+      <Key ID="STR_ENH_help_scriptingBeginners">
         <Original>Scripting for Beginners...</Original>
         <English>Scripting for Beginners...</English>
         <Czech>Skriptování pro začátečníky...</Czech>
@@ -1729,23 +1769,23 @@
         <Spanish>Scripting para novatos...</Spanish>
         <German>Skripten für Anfänger...</German>
       </Key>
-      <Key ID="STR_ENH_HelpAICompilation">
+      <Key ID="STR_ENH_help_AICompilation">
         <Original>AI Compilation List by Gunter Severloh...</Original>
         <English>AI Compilation List by Gunter Severloh...</English>
         <French>Compilation de scripts pour l'IA par Gunter Severloh</French>
         <Spanish>Compilación de scripts por Gunter Severloh...</Spanish>
         <German>KI Zusammenstellung von Gunter Severloh...</German>
       </Key>
-      <Key ID="STR_ENH_CodeOptimisation">
-        <Original>Code Optimisation</Original>
-        <English>Code Optimisation</English>
+      <Key ID="STR_ENH_help_codeOptimisation">
+        <Original>Code Optimisation...</Original>
+        <English>Code Optimisation...</English>
         <French />
         <Spanish />
-        <German>Code-Optimierung</German>
+        <German>Code-Optimierung...</German>
       </Key>
     </Container>
     <Container name="Statusbar">
-      <Key ID="STR_ENH_display3DEN_sessionTime_tooltip">
+      <Key ID="STR_ENH_statusBar_sessionTimer_tooltip">
         <Original>Session Time</Original>
         <English>Session Time</English>
         <Czech>Doba práce</Czech>
@@ -1755,7 +1795,7 @@
       </Key>
     </Container>
     <Container name="Tools">
-      <Key ID="STR_ENH_tools_fillArea_displayName">
+      <Key ID="STR_ENH_tools_fillArea">
         <Original>Fill Area...</Original>
         <English>Fill Area...</English>
         <Czech>Vyplnit oblast...</Czech>
@@ -1763,7 +1803,7 @@
         <Spanish>Rellenar área...</Spanish>
         <German>Bereich füllen...</German>
       </Key>
-      <Key ID="STR_ENH_tools_copyLoadouts_displayName">
+      <Key ID="STR_ENH_tools_copyLoadouts">
         <Original>Copy Loadout/s</Original>
         <English>Copy Loadout/s</English>
         <Czech>Kopírovat výstroj</Czech>
@@ -1771,7 +1811,7 @@
         <Spanish>Copiar equipamiento/s</Spanish>
         <German>Kopiere Ausrüstung</German>
       </Key>
-      <Key ID="STR_ENH_tools_applyLoadouts_displayName">
+      <Key ID="STR_ENH_tools_applyLoadouts">
         <Original>Apply Loadout/s</Original>
         <English>Apply Loadout/s</English>
         <Czech>Použít výstroj</Czech>
@@ -1779,7 +1819,7 @@
         <Spanish>Aplicar equipamiento/s</Spanish>
         <German>Ausrüstung zuweisen</German>
       </Key>
-      <Key ID="STR_ENH_tools_exportLoadoutConfig_displayName">
+      <Key ID="STR_ENH_tools_exportLoadoutConfig">
         <Original>Export Loadout (Config)</Original>
         <English>Export Loadout (Config)</English>
         <Czech>Exportovat výstroj (konfigurace)</Czech>
@@ -1787,7 +1827,7 @@
         <Spanish>Exportar equipamiento (configuración)</Spanish>
         <German>Ausrüstung exportieren (Config)</German>
       </Key>
-      <Key ID="STR_ENH_tools_circularPattern_displayName">
+      <Key ID="STR_ENH_tools_circularPattern">
         <Original>Circular Pattern...</Original>
         <English>Circular Pattern...</English>
         <Czech>Kruhový vzor...</Czech>
@@ -1795,7 +1835,7 @@
         <Spanish>En círculo...</Spanish>
         <German>Kreismuster...</German>
       </Key>
-      <Key ID="STR_ENH_tools_reverseDirection_displayName">
+      <Key ID="STR_ENH_tools_reverseDirection">
         <Original>Reverse Direction</Original>
         <English>Reverse Direction</English>
         <Czech>Obrácený směr</Czech>
@@ -1803,22 +1843,7 @@
         <Spanish>Dirección inversa</Spanish>
         <German>Ausrichtung umkehren</German>
       </Key>
-      <Key ID="STR_ENH_tools_measureDistance_displayName">
-        <Original>Měření vzdálenosti</Original>
-        <English>Measure Distance</English>
-        <French>Mesurer la distance</French>
-        <Spanish>Medición de distancia</Spanish>
-        <German>Distanz messen</German>
-      </Key>
-      <Key ID="STR_ENH_tools_logFaction_displayName">
-        <Original>Log Faction Names</Original>
-        <English>Log Faction Names</English>
-        <Czech>Zaznamenat názvy frakcí</Czech>
-        <French>Log du nom des factions</French>
-        <Spanish>Registrar nombres de facción</Spanish>
-        <German>Fraktionsnamen kopieren</German>
-      </Key>
-      <Key ID="STR_ENH_tools_briefingEditor_displayName">
+      <Key ID="STR_ENH_tools_briefingEditor">
         <Original>Briefing Editor...</Original>
         <English>Briefing Editor...</English>
         <Czech>Editor brífinku...</Czech>
@@ -1826,7 +1851,7 @@
         <Spanish>Editor de briefing...</Spanish>
         <German>Einsatzbesprechungseditor...</German>
       </Key>
-      <Key ID="STR_ENH_tools_randomDir_displayName">
+      <Key ID="STR_ENH_tools_randomDir">
         <Original>Randomise Direction</Original>
         <English>Randomise Direction</English>
         <Czech>Náhodný směr</Czech>
@@ -1834,7 +1859,7 @@
         <Spanish>Dirección aleatoria</Spanish>
         <German>Randomisiere Richtung</German>
       </Key>
-      <Key ID="STR_ENH_tools_switchTime_displayName">
+      <Key ID="STR_ENH_tools_switchTime">
         <Original>Switch Time</Original>
         <English>Switch Time</English>
         <Czech>Změnit čas</Czech>
@@ -1842,7 +1867,7 @@
         <Spanish>Cambio de hora</Spanish>
         <German>Zeitsprung</German>
       </Key>
-      <Key ID="STR_ENH_tools_orientateNorth_displayName">
+      <Key ID="STR_ENH_tools_orientateNorth">
         <Original>Orientate North</Original>
         <English>Orientate North</English>
         <Czech>Orientovat severně</Czech>
@@ -1850,7 +1875,7 @@
         <Spanish>Orientar al norte</Spanish>
         <German>Nach Norden ausrichten</German>
       </Key>
-      <Key ID="STR_ENH_tools_orientateSouth_displayName">
+      <Key ID="STR_ENH_tools_orientateSouth">
         <Original>Orientate South</Original>
         <English>Orientate South</English>
         <Czech>Orientovat jižně</Czech>
@@ -1858,7 +1883,7 @@
         <Spanish>Orientar al sur</Spanish>
         <German>Nach Süden ausrichten</German>
       </Key>
-      <Key ID="STR_ENH_tools_orientateEast_displayName">
+      <Key ID="STR_ENH_tools_orientateEast">
         <Original>Orientate East</Original>
         <English>Orientate East</English>
         <Czech>Orientovat východně</Czech>
@@ -1866,7 +1891,7 @@
         <Spanish>Orientar al este</Spanish>
         <German>Nach Osten ausrichten</German>
       </Key>
-      <Key ID="STR_ENH_tools_orientateWest_displayName">
+      <Key ID="STR_ENH_tools_orientateWest">
         <Original>Orientate West</Original>
         <English>Orientate West</English>
         <Czech>Orientovat západně</Czech>
@@ -1874,7 +1899,7 @@
         <Spanish>Orientar al oeste</Spanish>
         <German>Nach Westen ausrichten</German>
       </Key>
-      <Key ID="STR_ENH_tools_linePattern_displayName">
+      <Key ID="STR_ENH_tools_linePattern">
         <Original>Linepattern...</Original>
         <English>Linepattern...</English>
         <Czech>Zobrazit linie...</Czech>
@@ -1882,7 +1907,7 @@
         <Spanish>En línea...</Spanish>
         <German>Linienmuster...</German>
       </Key>
-      <Key ID="STR_ENH_tools_toggleGrass_displayName">
+      <Key ID="STR_ENH_tools_toggleGrass">
         <Original>Toggle Grass</Original>
         <English>Toggle Grass</English>
         <Czech>Zobrazit trávu</Czech>
@@ -1947,6 +1972,14 @@
         <Spanish>Imprimir configuración...</Spanish>
         <German>Config auslesen...</German>
       </Key>
+      <Key ID="STR_ENH_tools_recompileFunctions">
+        <Original>Recompile Functions</Original>
+        <English>Recompile Functions</English>
+        <Czech>Překompilovat funkce</Czech>
+        <French>Recompiler la fonction</French>
+        <Spanish>Recompilar funciones</Spanish>
+        <German>Funktionen neu kompilieren</German>
+      </Key>
       <Key ID="STR_ENH_tools_CfgDisabledCommands">
         <Original>CfgDisabled Commands Template Generator...</Original>
         <English>CfgDisabled Commands Template Generator...</English>
@@ -1954,12 +1987,46 @@
         <Spanish>Generador de plantillas de comandos de CfgDisabled...</Spanish>
         <German>CfgDisabled Commands Template Generator...</German>
       </Key>
+      <Key ID="STR_ENH_tools_showMissionStats">
+        <Original>Show Mission Statistic</Original>
+        <English>Show Mission Statistic</English>
+        <Czech>Zobrazit statistiku mise</Czech>
+        <French>Afficher les statistiques de la mission</French>
+        <Spanish>Mostrar estadísticas de la misión</Spanish>
+        <German>Zeige Missionstatistik</German>
+      </Key>
+      <Key ID="STR_ENH_tools_clearChat">
+        <Original>Clear Chat</Original>
+        <English>Clear Chat</English>
+        <German>Chat leeren</German>
+      </Key>
       <Key ID="STR_ENH_tools_batchReplace">
         <Original>Batch Replace...</Original>
         <English>Batch Replace...</English>
         <French />
         <Spanish />
         <German>Objekte ersetzten...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_deleteEmptyLayers">
+        <Original>Delete Empty Layers</Original>
+        <English>Delete Empty Layers</English>
+        <German>Leere Ebenen löschen</German>
+      </Key>
+      <Key ID="STR_ENH_tools_productInfo">
+        <Original>Log Game Info</Original>
+        <English>Log Game Info</English>
+        <Czech>Zaznamenat informace hry</Czech>
+        <French>Enregistrer info du jeu</French>
+        <Spanish>Registrar información de juego</Spanish>
+        <German>Kopiere Spieleinformationen</German>
+      </Key>
+      <Key ID="STR_ENH_tools_showMapIDs">
+        <Original>Show Map IDs</Original>
+        <English>Show Map IDs</English>
+        <Czech>Zobrazit ID na mapě</Czech>
+        <French>Afficher les IDs sur la carte</French>
+        <Spanish>Mostrar IDs en el mapa</Spanish>
+        <German>Zeige Karten IDs</German>
       </Key>
       <Key ID="STR_ENH_tools_batchNaming">
         <Original>Name Objects...</Original>
@@ -2029,12 +2096,12 @@
       </Key>
     </Container>
     <Container name="About">
-      <Key ID="STR_ENH_AboutChangelog">
+      <Key ID="STR_ENH_about_changelog">
         <Original>Changelog...</Original>
         <English>Changelog...</English>
         <German>Änderungshistorie...</German>
       </Key>
-      <Key ID="STR_ENH_AboutForums">
+      <Key ID="STR_ENH_about_forums">
         <Original>Forums...</Original>
         <English>Forums...</English>
         <Czech>Fóra...</Czech>
@@ -2046,34 +2113,34 @@
         <Russian>Форумы...</Russian>
         <German>Foren...</German>
       </Key>
-      <Key ID="STR_ENH_AboutSteam">
-        <Original>Steam Page...</Original>
-        <English>Steam Page...</English>
-        <German>Steam Seite...</German>
+      <Key ID="STR_ENH_about_steam">
+        <Original>Steam...</Original>
+        <English>Steam...</English>
+        <German>Steam...</German>
       </Key>
-      <Key ID="STR_ENH_AboutTranslation">
+      <Key ID="STR_ENH_about_translation">
         <Original>Help Translating...</Original>
         <English>Help Translating...</English>
         <German>Beim Übersetzen helfen...</German>
       </Key>
-      <Key ID="STR_ENH_AboutFAQ">
+      <Key ID="STR_ENH_about_FAQ">
         <Original>FAQ...</Original>
         <English>FAQ...</English>
         <German>FAQ...</German>
       </Key>
-      <Key ID="STR_ENH_AboutCredits">
+      <Key ID="STR_ENH_about_credits">
         <Original>Credits...</Original>
         <English>Credits...</English>
         <German>Credits...</German>
       </Key>
     </Container>
     <Container name="Menu Strip Folders">
-      <Key ID="STR_ENH_AboutFolder">
+      <Key ID="STR_ENH_folder_about">
         <Original>About 3den Enhanced</Original>
         <English>About 3den Enhanced</English>
         <German>Über 3den Enhanced</German>
       </Key>
-      <Key ID="STR_ENH_HelpFolder_Wiki">
+      <Key ID="STR_ENH_folder_wiki">
         <Original>Community Wiki...</Original>
         <English>Community Wiki...</English>
         <Czech>Komunitní encyklopedie Wiki...</Czech>
@@ -2085,15 +2152,7 @@
         <Russian>Страница сообщества...</Russian>
         <German>Community-Wiki...</German>
       </Key>
-      <Key ID="STR_ENH_HelpFolder_Youtube">
-        <Original>Youtube Tutorials...</Original>
-        <English>Youtube Tutorials...</English>
-        <Czech>Návody na Youtube...</Czech>
-        <French>Tutoriels Youtube...</French>
-        <Spanish>Tutoriales de youtube...</Spanish>
-        <German>Youtube Tutorials...</German>
-      </Key>
-      <Key ID="STR_ENH_HelpFolder_Community">
+      <Key ID="STR_ENH_folder_community">
         <Original>Community Help...</Original>
         <English>Community Help...</English>
         <Czech>Komunitní podporay...</Czech>
@@ -2101,7 +2160,7 @@
         <Spanish>Ayuda de la comunidad...</Spanish>
         <German>Community Hilfe...</German>
       </Key>
-      <Key ID="STR_ENH_toolFolder_utilities_displayName">
+      <Key ID="STR_ENH_folder_utilities">
         <Original>Utilities...</Original>
         <English>Utilities...</English>
         <Czech />
@@ -2109,7 +2168,7 @@
         <Spanish>Utilidades...</Spanish>
         <German>Hilfsmittel...</German>
       </Key>
-      <Key ID="STR_ENH_toolFolder_placement_displayName">
+      <Key ID="STR_ENH_folder_placementTools">
         <Original>Placement Tools...</Original>
         <English>Placement Tools...</English>
         <Czech>Nástroje umisťování...</Czech>
@@ -2117,7 +2176,7 @@
         <Spanish>Herramienta de posicionamiento...</Spanish>
         <German>Platzierungswerkzeuge...</German>
       </Key>
-      <Key ID="STR_ENH_toolFolder_debug_displayName">
+      <Key ID="STR_ENH_folder_debugTools">
         <Original>Debug Tools...</Original>
         <English>Debug Tools...</English>
         <Czech>Nástroje pro debug...</Czech>
@@ -2125,7 +2184,7 @@
         <Spanish>Herramientas de depuración...</Spanish>
         <German>Debugwerkzeuge...</German>
       </Key>
-      <Key ID="STR_ENH_toolFolder_loadout_displayName">
+      <Key ID="STR_ENH_folder_loadoutTools">
         <Original>Loadout Tools...</Original>
         <English>Loadout Tools...</English>
         <Czech>Nástroje pro výstroj...</Czech>
@@ -2683,6 +2742,11 @@
         <Original>Help</Original>
         <English>Help</English>
         <German>Hilfe</German>
+      </Key>
+      <Key ID="STR_ENH_3denRadio_help_description">
+        <Original>- DOUBLE LEFT CLICK on listbox entry: Play song immediately&lt;br/&gt;- Add a song to your playlist by pressing SPACE&lt;br/&gt;- Copy the class name of a song to your clipboard by pressing CTRL + C&lt;br/&gt;- Remove an entry from the Playlist by selecting it and pressing DELETE</Original>
+        <English>- DOUBLE LEFT CLICK on listbox entry: Play song immediately&lt;br/&gt;- Add a song to your playlist by pressing SPACE&lt;br/&gt;- Copy the class name of a song to your clipboard by pressing CTRL + C&lt;br/&gt;- Remove an entry from the Playlist by selecting it and pressing DELETE</English>
+        <German>- DOPPELT LINKSKLICK auf einen Listeneintrag: Lied abspielen&lt;br/&gt;-Lied zur Playlist hinzufügen: LEERTASTE&lt;br/&gt;Klassennamen in Zwischenablage kopieren: STRG + C</German>
       </Key>
     </Container>
     <Container name="Name Units">
