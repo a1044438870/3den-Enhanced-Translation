@@ -1890,6 +1890,14 @@
         <Spanish>Hierba Sí/No</Spanish>
         <German>Gras an/aus</German>
       </Key>
+      <Key ID="STR_ENH_tools_gridPattern">
+        <Original>Grid Pattern...</Original>
+        <English>Grid Pattern...</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Im Raster anordnen...</German>
+      </Key>
       <Key ID="STR_ENH_tools_exportGUIBaseClasses">
         <Original>Export GUI Base Classes (All)</Original>
         <English>Export GUI Base Classes (All)</English>
@@ -1969,6 +1977,11 @@
         <Original>Colour Picker...</Original>
         <English>Colour Picker...</English>
         <German>Farbauswahl Werkzeug...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_toggleSimpleObject">
+        <Original>Toggle Simple Object</Original>
+        <English>Toggle Simple Object</English>
+        <German>Zwischen einfachem Objekt umschalten</German>
       </Key>
     </Container>
     <Container name="Debug Tools">
