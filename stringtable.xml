@@ -2051,50 +2051,6 @@
         <German>Zwischen einfachem Objekt umschalten</German>
       </Key>
     </Container>
-    <Container name="Debug Tools">
-      <Key ID="STR_ENH_tools_showMapIDs_displayName">
-        <Original>Show Map IDs</Original>
-        <English>Show Map IDs</English>
-        <Czech>Zobrazit ID na mapě</Czech>
-        <French>Afficher les IDs sur la carte</French>
-        <Spanish>Mostrar IDs en el mapa</Spanish>
-        <German>Zeige Karten IDs</German>
-      </Key>
-      <Key ID="STR_ENH_tools_productInfo_displayName">
-        <Original>Log Game Info</Original>
-        <English>Log Game Info</English>
-        <Czech>Zaznamenat informace hry</Czech>
-        <French>Enregistrer info du jeu</French>
-        <Spanish>Registrar información de juego</Spanish>
-        <German>Kopiere Spieleinformationen</German>
-      </Key>
-      <Key ID="STR_ENH_tools_recompileFunctions_displayName">
-        <Original>Recompile Functions</Original>
-        <English>Recompile Functions</English>
-        <Czech>Překompilovat funkce</Czech>
-        <French>Recompiler la fonction</French>
-        <Spanish>Recompilar funciones</Spanish>
-        <German>Funktionen neu kompilieren</German>
-      </Key>
-      <Key ID="STR_ENH_tools_showMissionStats_displayName">
-        <Original>Show Mission Statistic</Original>
-        <English>Show Mission Statistic</English>
-        <Czech>Zobrazit statistiku mise</Czech>
-        <French>Afficher les statistiques de la mission</French>
-        <Spanish>Mostrar estadísticas de la misión</Spanish>
-        <German>Zeige Missionstatistik</German>
-      </Key>
-      <Key ID="STR_ENH_tools_deleteEmptyLayers">
-        <Original>Delete Empty Layers</Original>
-        <English>Delete Empty Layers</English>
-        <German>Leere Ebenen löschen</German>
-      </Key>
-      <Key ID="STR_ENH_tools_clearChat">
-        <Original>Clear Chat</Original>
-        <English>Clear Chat</English>
-        <German>Chat leeren</German>
-      </Key>
-    </Container>
     <Container name="About">
       <Key ID="STR_ENH_about_changelog">
         <Original>Changelog...</Original>
