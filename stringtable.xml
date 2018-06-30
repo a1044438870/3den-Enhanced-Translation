@@ -2986,6 +2986,38 @@
         <German>Alle ausgewählten Objekte werden durch die hier angegebenen Objekttypen willkürlich ausgetauscht.</German>
       </Key>
     </Container>
+    <Container name="Export Loadout">
+      <Key ID="STR_ENH_exportLoadout_header">
+        <Original>Export Loadout to Respawn Inventory</Original>
+        <English>Export Loadout to Respawn Inventory</English>
+        <German>Wiedereinstiegs-Ausrüstung exportieren</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_className">
+        <Original>Class Name</Original>
+        <English>Class Name</English>
+        <German>Klassenname</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_displayName">
+        <Original>Display Name</Original>
+        <English>Display Name</English>
+        <German>Anzeigename</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_icon">
+        <Original>Icon</Original>
+        <English>Icon</English>
+        <German>Icon</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_role">
+        <Original>Role</Original>
+        <English>Role</English>
+        <German>Rolle</German>
+      </Key>
+      <Key ID="STR_ENH_exportLoadout_condition">
+        <Original>Condition</Original>
+        <English>Condition</English>
+        <German>Bedingung</German>
+      </Key>
+    </Container>
   </Package>
   <Package name="Attributes: Group">
     <Container name="Task Patrol">
