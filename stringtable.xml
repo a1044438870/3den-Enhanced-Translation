@@ -1594,7 +1594,7 @@
     </Container>
   </Package>
   <Package name="Misc">
-    <Container name="notification.hpp">
+    <Container name="Notifications">
       <Key ID="STR_ENH_notifications_actionPerformed">
         <Original>Action performed!</Original>
         <English>Action performed!</English>
@@ -1614,176 +1614,6 @@
         <German>Anschalten</German>
       </Key>
     </Container>
-  </Package>
-  <Package name="Display3DEN.hpp">
-    <Container name="Context Menu">
-      <Key ID="STR_ENH_contextMenu_logClass">
-        <Original>Log Class to Clipboard</Original>
-        <English>Log Class to Clipboard</English>
-        <Czech>Zaznamenat třídu do schránky</Czech>
-        <French>Log Class vers le presse-papier</French>
-        <Spanish>Registar "Class" en el portapapeles.</Spanish>
-        <German>Kopiere Klasse in Zwischenablage</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_getModuleDescription">
-        <Original>Module Description...</Original>
-        <English>Module Description...</English>
-        <Czech>Zobrazit popis modulu...</Czech>
-        <French>Afficher la description du module...</French>
-        <Spanish>Mostrar descripción del módulo...</Spanish>
-        <German>Modulbeschreibung...</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_garrisonHeader">
-        <Original>Garrison Buildings...</Original>
-        <English>Garrison Buildings...</English>
-        <Czech>Obsadit budovy...</Czech>
-        <French>Placer en garnison...</French>
-        <Spanish>Guarnicionar edificios...</Spanish>
-        <German>Gebäude besetzen...</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_setTriggerOwnerPlayer">
-        <Original>Set Player as Trigger Owner</Original>
-        <English>Set Player as Trigger Owner</English>
-        <Czech>Nastavit hráče jako vlastníka spínače</Czech>
-        <French>Définir l'unité joueur en tant que propriétaire du déclencheur</French>
-        <Spanish>Establecer jugador como propietario del trigger (activador)</Spanish>
-        <German>Spieler als Auslöser-Besitzer festlegen</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_deleteCrew">
-        <Original>Delete Crew</Original>
-        <English>Delete Crew</English>
-        <French>Supprimer l'équipage</French>
-        <Spanish>Borrar tripulación</Spanish>
-        <German>Besatzung entfernen</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_getSize">
-        <Original>Get Object's Size</Original>
-        <English>Get Object's Size</English>
-        <French>Obtenir les dimensions de l'objet</French>
-        <Spanish>Tomar el tamaño del objeto</Spanish>
-        <German>Objektgröße messen</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_logPositions2D">
-        <Original>Log Positions (2D)</Original>
-        <English>Log Positions (2D)</English>
-        <German>Kopiere Positionen (2D) in Zwischenablage</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_logFaction">
-        <Original>Log Faction Names</Original>
-        <English>Log Faction Names</English>
-        <Czech>Zaznamenat názvy frakcí</Czech>
-        <French>Log du nom des factions</French>
-        <Spanish>Registrar nombres de facción</Spanish>
-        <German>Fraktionsnamen kopieren</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_logPositions3D">
-        <Original>Log Positions (3D)</Original>
-        <English>Log Positions (3D)</English>
-        <German>Kopiere Positionen (3D) in Zwischenablage</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_show3DENID">
-        <Original>Show 3DEN Entity ID</Original>
-        <English>Show 3DEN Entity ID</English>
-        <German>Zeige 3DEN Objekt ID</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_measureDistance">
-        <Original>Měření vzdálenosti</Original>
-        <English>Measure Distance</English>
-        <French>Mesurer la distance</French>
-        <Spanish>Medición de distancia</Spanish>
-        <German>Distanz messen</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_logObjectInfo">
-        <Original>Log Object Info</Original>
-        <English>Log Object Info</English>
-        <German>Objektinfo. in Zwischenablage aufzeichnen</German>
-      </Key>
-      <Key ID="STR_ENH_contextMenu_logGridPosition">
-        <Original>Log Grid Position</Original>
-        <English>Log Grid Position</English>
-        <German>Rasterposition in Zwischenablage aufzeichnen</German>
-      </Key>
-    </Container>
-    <Container name="Help">
-      <Key ID="STR_ENH_help_functionsOverview">
-        <Original>Functions Overview...</Original>
-        <English>Functions Overview...</English>
-        <Czech>Přehled funkce...</Czech>
-        <French>Aperçu des fonctions...</French>
-        <Spanish>Resumen de las funciones...</Spanish>
-        <German>Funktionsübersicht...</German>
-      </Key>
-      <Key ID="STR_ENH_help_KKBlog">
-        <Original>KK's Blog...</Original>
-        <English>KK's Blog...</English>
-        <Czech>KK's Blog...</Czech>
-        <French>Blog de KillzoneKid...</French>
-        <Spanish>Blog de KillzoneKid...</Spanish>
-        <German>KK's Blog...</German>
-      </Key>
-      <Key ID="STR_ENH_help_kylania">
-        <Original>Script Examples by Kylania...</Original>
-        <English>Script Examples by Kylania...</English>
-        <Czech>Script Examples by Kylania...</Czech>
-        <French>Exemples de scripts par Kylania...</French>
-        <Spanish>Ejemplos de scripts por Kylania...</Spanish>
-        <German>Skriptbespiele von Kylania...</German>
-      </Key>
-      <Key ID="STR_ENH_help_fockersScriptingTutorial">
-        <Original>Focker's Scripting Tutorial...</Original>
-        <English>Focker's Scripting Tutorial...</English>
-        <Czech>Focker's Scripting Tutorial...</Czech>
-        <French>Tutoriel de Scripting par Focker</French>
-        <Spanish>Tutorial scripting de Focker...</Spanish>
-        <German>Focker's Programmiertutorial...</German>
-      </Key>
-      <Key ID="STR_ENH_help_missionCampaignGuide">
-        <Original>Guide: Mission &amp; Campaign making...</Original>
-        <English>Guide: Mission &amp; Campaign making...</English>
-        <Czech>Návod: vytváření misí &amp; kampaní...</Czech>
-        <French>Guide : créer une Mission/Campagne...</French>
-        <Spanish>Guía: Misión y Campaña...</Spanish>
-        <German>Leitfaden: Missions- und Kampagnenerstellung...</German>
-      </Key>
-      <Key ID="STR_ENH_help_missionPresentation">
-        <Original>Mission Presentation...</Original>
-        <English>Mission Presentation...</English>
-        <Czech>Prezentace mise...</Czech>
-        <French>Mise en page de la Présentation d'une Mission...</French>
-        <Spanish>Presentación de misión...</Spanish>
-        <German>Missionsdarstellung...</German>
-      </Key>
-      <Key ID="STR_ENH_help_foxhoundInternational">
-        <Original>Příklady skriptů od Foxhound International...</Original>
-        <English>Scripting Examples by Foxhound International...</English>
-        <Czech>Scripting Examples by Foxhound International...</Czech>
-        <French>Exemples de rédaction de scripts par Foxhound International...</French>
-        <Spanish>Ejemplos de scripts de foxhound Internacional ...</Spanish>
-        <German>Skriptbeispiele von Foxhound International...</German>
-      </Key>
-      <Key ID="STR_ENH_help_scriptingBeginners">
-        <Original>Scripting for Beginners...</Original>
-        <English>Scripting for Beginners...</English>
-        <Czech>Skriptování pro začátečníky...</Czech>
-        <French>Débuter avec les Scripts...</French>
-        <Spanish>Scripting para novatos...</Spanish>
-        <German>Skripten für Anfänger...</German>
-      </Key>
-      <Key ID="STR_ENH_help_AICompilation">
-        <Original>AI Compilation List by Gunter Severloh...</Original>
-        <English>AI Compilation List by Gunter Severloh...</English>
-        <French>Compilation de scripts pour l'IA par Gunter Severloh</French>
-        <Spanish>Compilación de scripts por Gunter Severloh...</Spanish>
-        <German>KI Zusammenstellung von Gunter Severloh...</German>
-      </Key>
-      <Key ID="STR_ENH_help_codeOptimisation">
-        <Original>Code Optimisation...</Original>
-        <English>Code Optimisation...</English>
-        <French />
-        <Spanish />
-        <German>Code-Optimierung...</German>
-      </Key>
-    </Container>
     <Container name="Statusbar">
       <Key ID="STR_ENH_statusBar_sessionTimer_tooltip">
         <Original>Session Time</Original>
@@ -1792,361 +1622,6 @@
         <French>Durée de la session</French>
         <Spanish>Hora de la sesión</Spanish>
         <German>Sitzungsdauer</German>
-      </Key>
-    </Container>
-    <Container name="Tools">
-      <Key ID="STR_ENH_tools_fillArea">
-        <Original>Fill Area...</Original>
-        <English>Fill Area...</English>
-        <Czech>Vyplnit oblast...</Czech>
-        <French>Remplir la zone...</French>
-        <Spanish>Rellenar área...</Spanish>
-        <German>Bereich füllen...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_copyLoadouts">
-        <Original>Copy Loadout/s</Original>
-        <English>Copy Loadout/s</English>
-        <Czech>Kopírovat výstroj</Czech>
-        <French>Copier l'équipement</French>
-        <Spanish>Copiar equipamiento/s</Spanish>
-        <German>Kopiere Ausrüstung</German>
-      </Key>
-      <Key ID="STR_ENH_tools_applyLoadouts">
-        <Original>Apply Loadout/s</Original>
-        <English>Apply Loadout/s</English>
-        <Czech>Použít výstroj</Czech>
-        <French>Appliquer l'équipement</French>
-        <Spanish>Aplicar equipamiento/s</Spanish>
-        <German>Ausrüstung zuweisen</German>
-      </Key>
-      <Key ID="STR_ENH_tools_exportLoadoutConfig">
-        <Original>Export Loadout (Config)</Original>
-        <English>Export Loadout (Config)</English>
-        <Czech>Exportovat výstroj (konfigurace)</Czech>
-        <French>Exporter l'équipement (config)</French>
-        <Spanish>Exportar equipamiento (configuración)</Spanish>
-        <German>Ausrüstung exportieren (Config)</German>
-      </Key>
-      <Key ID="STR_ENH_tools_circularPattern">
-        <Original>Circular Pattern...</Original>
-        <English>Circular Pattern...</English>
-        <Czech>Kruhový vzor...</Czech>
-        <French>En cercle...</French>
-        <Spanish>En círculo...</Spanish>
-        <German>Kreismuster...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_reverseDirection">
-        <Original>Reverse Direction</Original>
-        <English>Reverse Direction</English>
-        <Czech>Obrácený směr</Czech>
-        <French>Inverser l'orientation</French>
-        <Spanish>Dirección inversa</Spanish>
-        <German>Ausrichtung umkehren</German>
-      </Key>
-      <Key ID="STR_ENH_tools_briefingEditor">
-        <Original>Briefing Editor...</Original>
-        <English>Briefing Editor...</English>
-        <Czech>Editor brífinku...</Czech>
-        <French>Editeur de briefing...</French>
-        <Spanish>Editor de briefing...</Spanish>
-        <German>Einsatzbesprechungseditor...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_randomDir">
-        <Original>Randomise Direction</Original>
-        <English>Randomise Direction</English>
-        <Czech>Náhodný směr</Czech>
-        <French>Orientation aléatoire</French>
-        <Spanish>Dirección aleatoria</Spanish>
-        <German>Randomisiere Richtung</German>
-      </Key>
-      <Key ID="STR_ENH_tools_switchTime">
-        <Original>Switch Time</Original>
-        <English>Switch Time</English>
-        <Czech>Změnit čas</Czech>
-        <French>Horaire prédéfini suivant</French>
-        <Spanish>Cambio de hora</Spanish>
-        <German>Zeitsprung</German>
-      </Key>
-      <Key ID="STR_ENH_tools_orientateNorth">
-        <Original>Orientate North</Original>
-        <English>Orientate North</English>
-        <Czech>Orientovat severně</Czech>
-        <French>Orienter vers le Nord</French>
-        <Spanish>Orientar al norte</Spanish>
-        <German>Nach Norden ausrichten</German>
-      </Key>
-      <Key ID="STR_ENH_tools_orientateSouth">
-        <Original>Orientate South</Original>
-        <English>Orientate South</English>
-        <Czech>Orientovat jižně</Czech>
-        <French>Orienter vers le Sud</French>
-        <Spanish>Orientar al sur</Spanish>
-        <German>Nach Süden ausrichten</German>
-      </Key>
-      <Key ID="STR_ENH_tools_orientateEast">
-        <Original>Orientate East</Original>
-        <English>Orientate East</English>
-        <Czech>Orientovat východně</Czech>
-        <French>Orienter vers l'Est</French>
-        <Spanish>Orientar al este</Spanish>
-        <German>Nach Osten ausrichten</German>
-      </Key>
-      <Key ID="STR_ENH_tools_orientateWest">
-        <Original>Orientate West</Original>
-        <English>Orientate West</English>
-        <Czech>Orientovat západně</Czech>
-        <French>Orienter vers l'Ouest</French>
-        <Spanish>Orientar al oeste</Spanish>
-        <German>Nach Westen ausrichten</German>
-      </Key>
-      <Key ID="STR_ENH_tools_linePattern">
-        <Original>Linepattern...</Original>
-        <English>Linepattern...</English>
-        <Czech>Zobrazit linie...</Czech>
-        <French>Aligner...</French>
-        <Spanish>En línea...</Spanish>
-        <German>Linienmuster...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_toggleGrass">
-        <Original>Toggle Grass</Original>
-        <English>Toggle Grass</English>
-        <Czech>Zobrazit trávu</Czech>
-        <French>Afficher l'herbe</French>
-        <Spanish>Hierba Sí/No</Spanish>
-        <German>Gras an/aus</German>
-      </Key>
-      <Key ID="STR_ENH_tools_gridPattern">
-        <Original>Grid Pattern...</Original>
-        <English>Grid Pattern...</English>
-        <Czech />
-        <French />
-        <Spanish />
-        <German>Im Raster anordnen...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_exportGUIBaseClasses">
-        <Original>Export GUI Base Classes (All)</Original>
-        <English>Export GUI Base Classes (All)</English>
-        <French>Exporter les classes GUI (All)</French>
-        <Spanish>Exportar clases (classes) del GUI base (All)</Spanish>
-        <German>GUI Klassen exportieren (Alle)</German>
-      </Key>
-      <Key ID="STR_ENH_tools_exportGUIBaseClasses_3den">
-        <Original>Export GUI Base Classes (Eden only)</Original>
-        <English>Export GUI Base Classes (Eden only)</English>
-        <French>Exporter les classes GUI (Eden only)</French>
-        <Spanish>Exportar clases (classes) del GUI base (Eden only)</Spanish>
-        <German>GUI Klassen exportieren (Nur Eden)</German>
-      </Key>
-      <Key ID="STR_ENH_tools_exportGUIBaseClasses_default">
-        <Original>Export GUI Base Classes (Default)</Original>
-        <English>Export GUI Base Classes (Default)</English>
-        <French>Exporter les classes GUI (Default)</French>
-        <Spanish>Exportar clases (classes) del GUI base (Default)</Spanish>
-        <German>GUI Klassen exportieren (Standard)</German>
-      </Key>
-      <Key ID="STR_ENH_tools_GUITestGrids">
-        <Original>Open GUI Test Grids...</Original>
-        <English>Open GUI Test Grids...</English>
-        <French>Afficher les grilles de test GUI...</French>
-        <Spanish>Abrir rejillas de pruebas del GUI...</Spanish>
-        <German>GUI Testraster öffnen...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_moonPhases">
-        <Original>Moon Phases...</Original>
-        <English>Moon Phases...</English>
-        <French />
-        <Spanish>Fases lunares...</Spanish>
-        <German>Mondphasen...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_jukebox">
-        <Original>Jukebox...</Original>
-        <English>Jukebox...</English>
-        <French />
-        <Spanish>Toca discos...</Spanish>
-        <German>Jukebox...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_printConfig">
-        <Original>Print Config...</Original>
-        <English>Print Config...</English>
-        <French />
-        <Spanish>Imprimir configuración...</Spanish>
-        <German>Config auslesen...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_recompileFunctions">
-        <Original>Recompile Functions</Original>
-        <English>Recompile Functions</English>
-        <Czech>Překompilovat funkce</Czech>
-        <French>Recompiler la fonction</French>
-        <Spanish>Recompilar funciones</Spanish>
-        <German>Funktionen neu kompilieren</German>
-      </Key>
-      <Key ID="STR_ENH_tools_CfgDisabledCommands">
-        <Original>CfgDisabled Commands Template Generator...</Original>
-        <English>CfgDisabled Commands Template Generator...</English>
-        <French />
-        <Spanish>Generador de plantillas de comandos de CfgDisabled...</Spanish>
-        <German>CfgDisabled Commands Template Generator...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_showMissionStats">
-        <Original>Show Mission Statistic</Original>
-        <English>Show Mission Statistic</English>
-        <Czech>Zobrazit statistiku mise</Czech>
-        <French>Afficher les statistiques de la mission</French>
-        <Spanish>Mostrar estadísticas de la misión</Spanish>
-        <German>Zeige Missionstatistik</German>
-      </Key>
-      <Key ID="STR_ENH_tools_clearChat">
-        <Original>Clear Chat</Original>
-        <English>Clear Chat</English>
-        <German>Chat leeren</German>
-      </Key>
-      <Key ID="STR_ENH_tools_batchReplace">
-        <Original>Batch Replace...</Original>
-        <English>Batch Replace...</English>
-        <French />
-        <Spanish />
-        <German>Objekte ersetzten...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_deleteEmptyLayers">
-        <Original>Delete Empty Layers</Original>
-        <English>Delete Empty Layers</English>
-        <German>Leere Ebenen löschen</German>
-      </Key>
-      <Key ID="STR_ENH_tools_productInfo">
-        <Original>Log Game Info</Original>
-        <English>Log Game Info</English>
-        <Czech>Zaznamenat informace hry</Czech>
-        <French>Enregistrer info du jeu</French>
-        <Spanish>Registrar información de juego</Spanish>
-        <German>Kopiere Spieleinformationen</German>
-      </Key>
-      <Key ID="STR_ENH_tools_showMapIDs">
-        <Original>Show Map IDs</Original>
-        <English>Show Map IDs</English>
-        <Czech>Zobrazit ID na mapě</Czech>
-        <French>Afficher les IDs sur la carte</French>
-        <Spanish>Mostrar IDs en el mapa</Spanish>
-        <German>Zeige Karten IDs</German>
-      </Key>
-      <Key ID="STR_ENH_tools_batchNaming">
-        <Original>Name Objects...</Original>
-        <English>Name Objects...</English>
-        <French />
-        <Spanish>Cambio de nombre en lote...</Spanish>
-        <German>Objekte benennen...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_textureFinder">
-        <Original>Texture Finder...</Original>
-        <English>Texture Finder...</English>
-        <German>Texturen suchen...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_colourPicker">
-        <Original>Colour Picker...</Original>
-        <English>Colour Picker...</English>
-        <German>Farbauswahl Werkzeug...</German>
-      </Key>
-      <Key ID="STR_ENH_tools_toggleSimpleObject">
-        <Original>Toggle Simple Object</Original>
-        <English>Toggle Simple Object</English>
-        <German>Zwischen einfachem Objekt umschalten</German>
-      </Key>
-    </Container>
-    <Container name="About">
-      <Key ID="STR_ENH_about_changelog">
-        <Original>Changelog...</Original>
-        <English>Changelog...</English>
-        <German>Änderungshistorie...</German>
-      </Key>
-      <Key ID="STR_ENH_about_forums">
-        <Original>Forums...</Original>
-        <English>Forums...</English>
-        <Czech>Fóra...</Czech>
-        <French>Forums...</French>
-        <Spanish>Foros...</Spanish>
-        <Italian>Forum...</Italian>
-        <Polish>Forum...</Polish>
-        <Portuguese>Fóruns...</Portuguese>
-        <Russian>Форумы...</Russian>
-        <German>Foren...</German>
-      </Key>
-      <Key ID="STR_ENH_about_steam">
-        <Original>Steam...</Original>
-        <English>Steam...</English>
-        <German>Steam...</German>
-      </Key>
-      <Key ID="STR_ENH_about_translation">
-        <Original>Help Translating...</Original>
-        <English>Help Translating...</English>
-        <German>Beim Übersetzen helfen...</German>
-      </Key>
-      <Key ID="STR_ENH_about_FAQ">
-        <Original>FAQ...</Original>
-        <English>FAQ...</English>
-        <German>FAQ...</German>
-      </Key>
-      <Key ID="STR_ENH_about_credits">
-        <Original>Credits...</Original>
-        <English>Credits...</English>
-        <German>Credits...</German>
-      </Key>
-    </Container>
-    <Container name="Menu Strip Folders">
-      <Key ID="STR_ENH_folder_about">
-        <Original>About 3den Enhanced</Original>
-        <English>About 3den Enhanced</English>
-        <German>Über 3den Enhanced</German>
-      </Key>
-      <Key ID="STR_ENH_folder_wiki">
-        <Original>Community Wiki...</Original>
-        <English>Community Wiki...</English>
-        <Czech>Komunitní encyklopedie Wiki...</Czech>
-        <French>Wiki de la communauté...</French>
-        <Spanish>Wiki de comunidad...</Spanish>
-        <Italian>Wiki della Community...</Italian>
-        <Polish>Wiki społeczności...</Polish>
-        <Portuguese>Wiki da comunidade...</Portuguese>
-        <Russian>Страница сообщества...</Russian>
-        <German>Community-Wiki...</German>
-      </Key>
-      <Key ID="STR_ENH_folder_community">
-        <Original>Community Help...</Original>
-        <English>Community Help...</English>
-        <Czech>Komunitní podporay...</Czech>
-        <French>Aide de la Communauté...</French>
-        <Spanish>Ayuda de la comunidad...</Spanish>
-        <German>Community Hilfe...</German>
-      </Key>
-      <Key ID="STR_ENH_folder_utilities">
-        <Original>Utilities...</Original>
-        <English>Utilities...</English>
-        <Czech />
-        <French />
-        <Spanish>Utilidades...</Spanish>
-        <German>Hilfsmittel...</German>
-      </Key>
-      <Key ID="STR_ENH_folder_placementTools">
-        <Original>Placement Tools...</Original>
-        <English>Placement Tools...</English>
-        <Czech>Nástroje umisťování...</Czech>
-        <French>Outils de positionnement...</French>
-        <Spanish>Herramienta de posicionamiento...</Spanish>
-        <German>Platzierungswerkzeuge...</German>
-      </Key>
-      <Key ID="STR_ENH_folder_debugTools">
-        <Original>Debug Tools...</Original>
-        <English>Debug Tools...</English>
-        <Czech>Nástroje pro debug...</Czech>
-        <French>Outil de débugage...</French>
-        <Spanish>Herramientas de depuración...</Spanish>
-        <German>Debugwerkzeuge...</German>
-      </Key>
-      <Key ID="STR_ENH_folder_loadoutTools">
-        <Original>Loadout Tools...</Original>
-        <English>Loadout Tools...</English>
-        <Czech>Nástroje pro výstroj...</Czech>
-        <French>Outil d'équipement...</French>
-        <Spanish>Herramientas de equipamiento...</Spanish>
-        <German>Ausrüstungswerkzeuge...</German>
       </Key>
     </Container>
   </Package>
@@ -3699,6 +3174,533 @@
         <Original>Kill Units (East)</Original>
         <English>Kill Units (East)</English>
         <German>Einheiten töten (Osten)</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Menu Strip">
+    <Container name="Folder">
+      <Key ID="STR_ENH_folder_about">
+        <Original>About 3den Enhanced</Original>
+        <English>About 3den Enhanced</English>
+        <German>Über 3den Enhanced</German>
+      </Key>
+      <Key ID="STR_ENH_folder_wiki">
+        <Original>Community Wiki...</Original>
+        <English>Community Wiki...</English>
+        <Czech>Komunitní encyklopedie Wiki...</Czech>
+        <French>Wiki de la communauté...</French>
+        <Spanish>Wiki de comunidad...</Spanish>
+        <Italian>Wiki della Community...</Italian>
+        <Polish>Wiki społeczności...</Polish>
+        <Portuguese>Wiki da comunidade...</Portuguese>
+        <Russian>Страница сообщества...</Russian>
+        <German>Community-Wiki...</German>
+      </Key>
+      <Key ID="STR_ENH_folder_community">
+        <Original>Community Help...</Original>
+        <English>Community Help...</English>
+        <Czech>Komunitní podporay...</Czech>
+        <French>Aide de la Communauté...</French>
+        <Spanish>Ayuda de la comunidad...</Spanish>
+        <German>Community Hilfe...</German>
+      </Key>
+      <Key ID="STR_ENH_folder_utilities">
+        <Original>Utilities...</Original>
+        <English>Utilities...</English>
+        <Czech />
+        <French />
+        <Spanish>Utilidades...</Spanish>
+        <German>Hilfsmittel...</German>
+      </Key>
+      <Key ID="STR_ENH_folder_placementTools">
+        <Original>Placement Tools...</Original>
+        <English>Placement Tools...</English>
+        <Czech>Nástroje umisťování...</Czech>
+        <French>Outils de positionnement...</French>
+        <Spanish>Herramienta de posicionamiento...</Spanish>
+        <German>Platzierungswerkzeuge...</German>
+      </Key>
+      <Key ID="STR_ENH_folder_debugTools">
+        <Original>Debug Tools...</Original>
+        <English>Debug Tools...</English>
+        <Czech>Nástroje pro debug...</Czech>
+        <French>Outil de débugage...</French>
+        <Spanish>Herramientas de depuración...</Spanish>
+        <German>Debugwerkzeuge...</German>
+      </Key>
+      <Key ID="STR_ENH_folder_loadoutTools">
+        <Original>Loadout Tools...</Original>
+        <English>Loadout Tools...</English>
+        <Czech>Nástroje pro výstroj...</Czech>
+        <French>Outil d'équipement...</French>
+        <Spanish>Herramientas de equipamiento...</Spanish>
+        <German>Ausrüstungswerkzeuge...</German>
+      </Key>
+    </Container>
+    <Container name="About">
+      <Key ID="STR_ENH_about_changelog">
+        <Original>Changelog...</Original>
+        <English>Changelog...</English>
+        <German>Änderungshistorie...</German>
+      </Key>
+      <Key ID="STR_ENH_about_forums">
+        <Original>Forums...</Original>
+        <English>Forums...</English>
+        <Czech>Fóra...</Czech>
+        <French>Forums...</French>
+        <Spanish>Foros...</Spanish>
+        <Italian>Forum...</Italian>
+        <Polish>Forum...</Polish>
+        <Portuguese>Fóruns...</Portuguese>
+        <Russian>Форумы...</Russian>
+        <German>Foren...</German>
+      </Key>
+      <Key ID="STR_ENH_about_steam">
+        <Original>Steam...</Original>
+        <English>Steam...</English>
+        <German>Steam...</German>
+      </Key>
+      <Key ID="STR_ENH_about_translation">
+        <Original>Help Translating...</Original>
+        <English>Help Translating...</English>
+        <German>Beim Übersetzen helfen...</German>
+      </Key>
+      <Key ID="STR_ENH_about_FAQ">
+        <Original>FAQ...</Original>
+        <English>FAQ...</English>
+        <German>FAQ...</German>
+      </Key>
+      <Key ID="STR_ENH_about_credits">
+        <Original>Credits...</Original>
+        <English>Credits...</English>
+        <German>Credits...</German>
+      </Key>
+    </Container>
+    <Container name="Tools">
+      <Key ID="STR_ENH_tools_fillArea">
+        <Original>Fill Area...</Original>
+        <English>Fill Area...</English>
+        <Czech>Vyplnit oblast...</Czech>
+        <French>Remplir la zone...</French>
+        <Spanish>Rellenar área...</Spanish>
+        <German>Bereich füllen...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_copyLoadouts">
+        <Original>Copy Loadout/s</Original>
+        <English>Copy Loadout/s</English>
+        <Czech>Kopírovat výstroj</Czech>
+        <French>Copier l'équipement</French>
+        <Spanish>Copiar equipamiento/s</Spanish>
+        <German>Kopiere Ausrüstung</German>
+      </Key>
+      <Key ID="STR_ENH_tools_applyLoadouts">
+        <Original>Apply Loadout/s</Original>
+        <English>Apply Loadout/s</English>
+        <Czech>Použít výstroj</Czech>
+        <French>Appliquer l'équipement</French>
+        <Spanish>Aplicar equipamiento/s</Spanish>
+        <German>Ausrüstung zuweisen</German>
+      </Key>
+      <Key ID="STR_ENH_tools_exportLoadoutConfig">
+        <Original>Export Loadout (Config)</Original>
+        <English>Export Loadout (Config)</English>
+        <Czech>Exportovat výstroj (konfigurace)</Czech>
+        <French>Exporter l'équipement (config)</French>
+        <Spanish>Exportar equipamiento (configuración)</Spanish>
+        <German>Ausrüstung exportieren (Config)</German>
+      </Key>
+      <Key ID="STR_ENH_tools_circularPattern">
+        <Original>Circular Pattern...</Original>
+        <English>Circular Pattern...</English>
+        <Czech>Kruhový vzor...</Czech>
+        <French>En cercle...</French>
+        <Spanish>En círculo...</Spanish>
+        <German>Kreismuster...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_reverseDirection">
+        <Original>Reverse Direction</Original>
+        <English>Reverse Direction</English>
+        <Czech>Obrácený směr</Czech>
+        <French>Inverser l'orientation</French>
+        <Spanish>Dirección inversa</Spanish>
+        <German>Ausrichtung umkehren</German>
+      </Key>
+      <Key ID="STR_ENH_tools_briefingEditor">
+        <Original>Briefing Editor...</Original>
+        <English>Briefing Editor...</English>
+        <Czech>Editor brífinku...</Czech>
+        <French>Editeur de briefing...</French>
+        <Spanish>Editor de briefing...</Spanish>
+        <German>Einsatzbesprechungseditor...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_randomDir">
+        <Original>Randomise Direction</Original>
+        <English>Randomise Direction</English>
+        <Czech>Náhodný směr</Czech>
+        <French>Orientation aléatoire</French>
+        <Spanish>Dirección aleatoria</Spanish>
+        <German>Randomisiere Richtung</German>
+      </Key>
+      <Key ID="STR_ENH_tools_switchTime">
+        <Original>Switch Time</Original>
+        <English>Switch Time</English>
+        <Czech>Změnit čas</Czech>
+        <French>Horaire prédéfini suivant</French>
+        <Spanish>Cambio de hora</Spanish>
+        <German>Zeitsprung</German>
+      </Key>
+      <Key ID="STR_ENH_tools_orientateNorth">
+        <Original>Orientate North</Original>
+        <English>Orientate North</English>
+        <Czech>Orientovat severně</Czech>
+        <French>Orienter vers le Nord</French>
+        <Spanish>Orientar al norte</Spanish>
+        <German>Nach Norden ausrichten</German>
+      </Key>
+      <Key ID="STR_ENH_tools_orientateSouth">
+        <Original>Orientate South</Original>
+        <English>Orientate South</English>
+        <Czech>Orientovat jižně</Czech>
+        <French>Orienter vers le Sud</French>
+        <Spanish>Orientar al sur</Spanish>
+        <German>Nach Süden ausrichten</German>
+      </Key>
+      <Key ID="STR_ENH_tools_orientateEast">
+        <Original>Orientate East</Original>
+        <English>Orientate East</English>
+        <Czech>Orientovat východně</Czech>
+        <French>Orienter vers l'Est</French>
+        <Spanish>Orientar al este</Spanish>
+        <German>Nach Osten ausrichten</German>
+      </Key>
+      <Key ID="STR_ENH_tools_orientateWest">
+        <Original>Orientate West</Original>
+        <English>Orientate West</English>
+        <Czech>Orientovat západně</Czech>
+        <French>Orienter vers l'Ouest</French>
+        <Spanish>Orientar al oeste</Spanish>
+        <German>Nach Westen ausrichten</German>
+      </Key>
+      <Key ID="STR_ENH_tools_linePattern">
+        <Original>Linepattern...</Original>
+        <English>Linepattern...</English>
+        <Czech>Zobrazit linie...</Czech>
+        <French>Aligner...</French>
+        <Spanish>En línea...</Spanish>
+        <German>Linienmuster...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_toggleGrass">
+        <Original>Toggle Grass</Original>
+        <English>Toggle Grass</English>
+        <Czech>Zobrazit trávu</Czech>
+        <French>Afficher l'herbe</French>
+        <Spanish>Hierba Sí/No</Spanish>
+        <German>Gras an/aus</German>
+      </Key>
+      <Key ID="STR_ENH_tools_gridPattern">
+        <Original>Grid Pattern...</Original>
+        <English>Grid Pattern...</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Im Raster anordnen...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_exportGUIBaseClasses">
+        <Original>Export GUI Base Classes (All)</Original>
+        <English>Export GUI Base Classes (All)</English>
+        <French>Exporter les classes GUI (All)</French>
+        <Spanish>Exportar clases (classes) del GUI base (All)</Spanish>
+        <German>GUI Klassen exportieren (Alle)</German>
+      </Key>
+      <Key ID="STR_ENH_tools_exportGUIBaseClasses_3den">
+        <Original>Export GUI Base Classes (Eden only)</Original>
+        <English>Export GUI Base Classes (Eden only)</English>
+        <French>Exporter les classes GUI (Eden only)</French>
+        <Spanish>Exportar clases (classes) del GUI base (Eden only)</Spanish>
+        <German>GUI Klassen exportieren (Nur Eden)</German>
+      </Key>
+      <Key ID="STR_ENH_tools_exportGUIBaseClasses_default">
+        <Original>Export GUI Base Classes (Default)</Original>
+        <English>Export GUI Base Classes (Default)</English>
+        <French>Exporter les classes GUI (Default)</French>
+        <Spanish>Exportar clases (classes) del GUI base (Default)</Spanish>
+        <German>GUI Klassen exportieren (Standard)</German>
+      </Key>
+      <Key ID="STR_ENH_tools_GUITestGrids">
+        <Original>Open GUI Test Grids...</Original>
+        <English>Open GUI Test Grids...</English>
+        <French>Afficher les grilles de test GUI...</French>
+        <Spanish>Abrir rejillas de pruebas del GUI...</Spanish>
+        <German>GUI Testraster öffnen...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_moonPhases">
+        <Original>Moon Phases...</Original>
+        <English>Moon Phases...</English>
+        <French />
+        <Spanish>Fases lunares...</Spanish>
+        <German>Mondphasen...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_jukebox">
+        <Original>Jukebox...</Original>
+        <English>Jukebox...</English>
+        <French />
+        <Spanish>Toca discos...</Spanish>
+        <German>Jukebox...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_printConfig">
+        <Original>Print Config...</Original>
+        <English>Print Config...</English>
+        <French />
+        <Spanish>Imprimir configuración...</Spanish>
+        <German>Config auslesen...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_recompileFunctions">
+        <Original>Recompile Functions</Original>
+        <English>Recompile Functions</English>
+        <Czech>Překompilovat funkce</Czech>
+        <French>Recompiler la fonction</French>
+        <Spanish>Recompilar funciones</Spanish>
+        <German>Funktionen neu kompilieren</German>
+      </Key>
+      <Key ID="STR_ENH_tools_CfgDisabledCommands">
+        <Original>CfgDisabled Commands Template Generator...</Original>
+        <English>CfgDisabled Commands Template Generator...</English>
+        <French />
+        <Spanish>Generador de plantillas de comandos de CfgDisabled...</Spanish>
+        <German>CfgDisabled Commands Template Generator...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_showMissionStats">
+        <Original>Show Mission Statistic</Original>
+        <English>Show Mission Statistic</English>
+        <Czech>Zobrazit statistiku mise</Czech>
+        <French>Afficher les statistiques de la mission</French>
+        <Spanish>Mostrar estadísticas de la misión</Spanish>
+        <German>Zeige Missionstatistik</German>
+      </Key>
+      <Key ID="STR_ENH_tools_clearChat">
+        <Original>Clear Chat</Original>
+        <English>Clear Chat</English>
+        <German>Chat leeren</German>
+      </Key>
+      <Key ID="STR_ENH_tools_batchReplace">
+        <Original>Batch Replace...</Original>
+        <English>Batch Replace...</English>
+        <French />
+        <Spanish />
+        <German>Objekte ersetzten...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_deleteEmptyLayers">
+        <Original>Delete Empty Layers</Original>
+        <English>Delete Empty Layers</English>
+        <German>Leere Ebenen löschen</German>
+      </Key>
+      <Key ID="STR_ENH_tools_productInfo">
+        <Original>Log Game Info</Original>
+        <English>Log Game Info</English>
+        <Czech>Zaznamenat informace hry</Czech>
+        <French>Enregistrer info du jeu</French>
+        <Spanish>Registrar información de juego</Spanish>
+        <German>Kopiere Spieleinformationen</German>
+      </Key>
+      <Key ID="STR_ENH_tools_showMapIDs">
+        <Original>Show Map IDs</Original>
+        <English>Show Map IDs</English>
+        <Czech>Zobrazit ID na mapě</Czech>
+        <French>Afficher les IDs sur la carte</French>
+        <Spanish>Mostrar IDs en el mapa</Spanish>
+        <German>Zeige Karten IDs</German>
+      </Key>
+      <Key ID="STR_ENH_tools_batchNaming">
+        <Original>Name Objects...</Original>
+        <English>Name Objects...</English>
+        <French />
+        <Spanish>Cambio de nombre en lote...</Spanish>
+        <German>Objekte benennen...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_textureFinder">
+        <Original>Texture Finder...</Original>
+        <English>Texture Finder...</English>
+        <German>Texturen suchen...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_colourPicker">
+        <Original>Colour Picker...</Original>
+        <English>Colour Picker...</English>
+        <German>Farbauswahl Werkzeug...</German>
+      </Key>
+      <Key ID="STR_ENH_tools_toggleSimpleObject">
+        <Original>Toggle Simple Object</Original>
+        <English>Toggle Simple Object</English>
+        <German>Zwischen einfachem Objekt umschalten</German>
+      </Key>
+    </Container>
+    <Container name="Help">
+      <Key ID="STR_ENH_help_functionsOverview">
+        <Original>Functions Overview...</Original>
+        <English>Functions Overview...</English>
+        <Czech>Přehled funkce...</Czech>
+        <French>Aperçu des fonctions...</French>
+        <Spanish>Resumen de las funciones...</Spanish>
+        <German>Funktionsübersicht...</German>
+      </Key>
+      <Key ID="STR_ENH_help_KKBlog">
+        <Original>KK's Blog...</Original>
+        <English>KK's Blog...</English>
+        <Czech>KK's Blog...</Czech>
+        <French>Blog de KillzoneKid...</French>
+        <Spanish>Blog de KillzoneKid...</Spanish>
+        <German>KK's Blog...</German>
+      </Key>
+      <Key ID="STR_ENH_help_kylania">
+        <Original>Script Examples by Kylania...</Original>
+        <English>Script Examples by Kylania...</English>
+        <Czech>Script Examples by Kylania...</Czech>
+        <French>Exemples de scripts par Kylania...</French>
+        <Spanish>Ejemplos de scripts por Kylania...</Spanish>
+        <German>Skriptbespiele von Kylania...</German>
+      </Key>
+      <Key ID="STR_ENH_help_fockersScriptingTutorial">
+        <Original>Focker's Scripting Tutorial...</Original>
+        <English>Focker's Scripting Tutorial...</English>
+        <Czech>Focker's Scripting Tutorial...</Czech>
+        <French>Tutoriel de Scripting par Focker</French>
+        <Spanish>Tutorial scripting de Focker...</Spanish>
+        <German>Focker's Programmiertutorial...</German>
+      </Key>
+      <Key ID="STR_ENH_help_missionCampaignGuide">
+        <Original>Guide: Mission &amp; Campaign making...</Original>
+        <English>Guide: Mission &amp; Campaign making...</English>
+        <Czech>Návod: vytváření misí &amp; kampaní...</Czech>
+        <French>Guide : créer une Mission/Campagne...</French>
+        <Spanish>Guía: Misión y Campaña...</Spanish>
+        <German>Leitfaden: Missions- und Kampagnenerstellung...</German>
+      </Key>
+      <Key ID="STR_ENH_help_missionPresentation">
+        <Original>Mission Presentation...</Original>
+        <English>Mission Presentation...</English>
+        <Czech>Prezentace mise...</Czech>
+        <French>Mise en page de la Présentation d'une Mission...</French>
+        <Spanish>Presentación de misión...</Spanish>
+        <German>Missionsdarstellung...</German>
+      </Key>
+      <Key ID="STR_ENH_help_foxhoundInternational">
+        <Original>Příklady skriptů od Foxhound International...</Original>
+        <English>Scripting Examples by Foxhound International...</English>
+        <Czech>Scripting Examples by Foxhound International...</Czech>
+        <French>Exemples de rédaction de scripts par Foxhound International...</French>
+        <Spanish>Ejemplos de scripts de foxhound Internacional ...</Spanish>
+        <German>Skriptbeispiele von Foxhound International...</German>
+      </Key>
+      <Key ID="STR_ENH_help_scriptingBeginners">
+        <Original>Scripting for Beginners...</Original>
+        <English>Scripting for Beginners...</English>
+        <Czech>Skriptování pro začátečníky...</Czech>
+        <French>Débuter avec les Scripts...</French>
+        <Spanish>Scripting para novatos...</Spanish>
+        <German>Skripten für Anfänger...</German>
+      </Key>
+      <Key ID="STR_ENH_help_AICompilation">
+        <Original>AI Compilation List by Gunter Severloh...</Original>
+        <English>AI Compilation List by Gunter Severloh...</English>
+        <French>Compilation de scripts pour l'IA par Gunter Severloh</French>
+        <Spanish>Compilación de scripts por Gunter Severloh...</Spanish>
+        <German>KI Zusammenstellung von Gunter Severloh...</German>
+      </Key>
+      <Key ID="STR_ENH_help_codeOptimisation">
+        <Original>Code Optimisation...</Original>
+        <English>Code Optimisation...</English>
+        <French />
+        <Spanish />
+        <German>Code-Optimierung...</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Context Menu">
+    <Container name="Context Menu">
+      <Key ID="STR_ENH_contextMenu_logClass">
+        <Original>Log Class to Clipboard</Original>
+        <English>Log Class to Clipboard</English>
+        <Czech>Zaznamenat třídu do schránky</Czech>
+        <French>Log Class vers le presse-papier</French>
+        <Spanish>Registar "Class" en el portapapeles.</Spanish>
+        <German>Kopiere Klasse in Zwischenablage</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_getModuleDescription">
+        <Original>Module Description...</Original>
+        <English>Module Description...</English>
+        <Czech>Zobrazit popis modulu...</Czech>
+        <French>Afficher la description du module...</French>
+        <Spanish>Mostrar descripción del módulo...</Spanish>
+        <German>Modulbeschreibung...</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_garrisonHeader">
+        <Original>Garrison Buildings...</Original>
+        <English>Garrison Buildings...</English>
+        <Czech>Obsadit budovy...</Czech>
+        <French>Placer en garnison...</French>
+        <Spanish>Guarnicionar edificios...</Spanish>
+        <German>Gebäude besetzen...</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_setTriggerOwnerPlayer">
+        <Original>Set Player as Trigger Owner</Original>
+        <English>Set Player as Trigger Owner</English>
+        <Czech>Nastavit hráče jako vlastníka spínače</Czech>
+        <French>Définir l'unité joueur en tant que propriétaire du déclencheur</French>
+        <Spanish>Establecer jugador como propietario del trigger (activador)</Spanish>
+        <German>Spieler als Auslöser-Besitzer festlegen</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_deleteCrew">
+        <Original>Delete Crew</Original>
+        <English>Delete Crew</English>
+        <French>Supprimer l'équipage</French>
+        <Spanish>Borrar tripulación</Spanish>
+        <German>Besatzung entfernen</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_getSize">
+        <Original>Get Object's Size</Original>
+        <English>Get Object's Size</English>
+        <French>Obtenir les dimensions de l'objet</French>
+        <Spanish>Tomar el tamaño del objeto</Spanish>
+        <German>Objektgröße messen</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_logPositions2D">
+        <Original>Log Positions (2D)</Original>
+        <English>Log Positions (2D)</English>
+        <German>Kopiere Positionen (2D) in Zwischenablage</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_logFaction">
+        <Original>Log Faction Names</Original>
+        <English>Log Faction Names</English>
+        <Czech>Zaznamenat názvy frakcí</Czech>
+        <French>Log du nom des factions</French>
+        <Spanish>Registrar nombres de facción</Spanish>
+        <German>Fraktionsnamen kopieren</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_logPositions3D">
+        <Original>Log Positions (3D)</Original>
+        <English>Log Positions (3D)</English>
+        <German>Kopiere Positionen (3D) in Zwischenablage</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_show3DENID">
+        <Original>Show 3DEN Entity ID</Original>
+        <English>Show 3DEN Entity ID</English>
+        <German>Zeige 3DEN Objekt ID</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_measureDistance">
+        <Original>Měření vzdálenosti</Original>
+        <English>Measure Distance</English>
+        <French>Mesurer la distance</French>
+        <Spanish>Medición de distancia</Spanish>
+        <German>Distanz messen</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_logObjectInfo">
+        <Original>Log Object Info</Original>
+        <English>Log Object Info</English>
+        <German>Objektinfo. in Zwischenablage aufzeichnen</German>
+      </Key>
+      <Key ID="STR_ENH_contextMenu_logGridPosition">
+        <Original>Log Grid Position</Original>
+        <English>Log Grid Position</English>
+        <German>Rasterposition in Zwischenablage aufzeichnen</German>
       </Key>
     </Container>
   </Package>
